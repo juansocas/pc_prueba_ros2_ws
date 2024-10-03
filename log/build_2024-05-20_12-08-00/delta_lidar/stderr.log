@@ -1,0 +1,8 @@
+[31mCMake Error at CMakeLists.txt:39 (add_executable):
+  add_executable cannot create target "delta_lidar_node_client" because
+  another target with the same name already exists.  The existing target is
+  an executable created in source directory
+  "/home/jsc/ros2_ws/src/delta_lidar".  See documentation for policy CMP0002
+  for more details.
+
+[0m

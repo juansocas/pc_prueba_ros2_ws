@@ -1,0 +1,21 @@
+[0.010s] Invoking command in '/home/jsc/ros2_ws/build/jsc_mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/prueba:/home/jsc/ros2_ws/install/aros2duino:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --build /home/jsc/ros2_ws/build/jsc_mobile_robot -- -j12 -l12
+[0.046s] Invoked command in '/home/jsc/ros2_ws/build/jsc_mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/prueba:/home/jsc/ros2_ws/install/aros2duino:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --build /home/jsc/ros2_ws/build/jsc_mobile_robot -- -j12 -l12
+[0.075s] Invoking command in '/home/jsc/ros2_ws/build/jsc_mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/prueba:/home/jsc/ros2_ws/install/aros2duino:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --install /home/jsc/ros2_ws/build/jsc_mobile_robot
+[0.082s] -- Install configuration: ""
+[0.083s] -- Execute custom install script
+[0.083s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/ament_index/resource_index/package_run_dependencies/jsc_mobile_robot
+[0.083s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/ament_index/resource_index/parent_prefix_path/jsc_mobile_robot
+[0.083s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/environment/ament_prefix_path.sh
+[0.083s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/environment/ament_prefix_path.dsv
+[0.084s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/environment/path.sh
+[0.084s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/environment/path.dsv
+[0.084s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/local_setup.bash
+[0.084s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/local_setup.sh
+[0.084s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/local_setup.zsh
+[0.084s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/local_setup.dsv
+[0.084s] -- Symlinking: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/package.dsv
+[0.093s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/ament_index/resource_index/packages/jsc_mobile_robot
+[0.093s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/cmake/jsc_mobile_robotConfig.cmake
+[0.093s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/cmake/jsc_mobile_robotConfig-version.cmake
+[0.093s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/package.xml
+[0.095s] Invoked command in '/home/jsc/ros2_ws/build/jsc_mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/prueba:/home/jsc/ros2_ws/install/aros2duino:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --install /home/jsc/ros2_ws/build/jsc_mobile_robot

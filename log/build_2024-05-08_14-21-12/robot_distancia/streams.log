@@ -1,0 +1,37 @@
+[1.144s] Invoking command in '/home/jsc/ros2_ws/build/robot_distancia': PYTHONPATH=/home/jsc/ros2_ws/build/robot_distancia/prefix_override:/home/jsc/ros2_ws/install/robot_distancia/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/jsc/ros2_ws/build/robot_distancia/build
+[1.400s] running develop
+[1.401s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.401s]   warnings.warn(
+[1.564s] Removing /home/jsc/ros2_ws/install/robot_distancia/lib/python3.10/site-packages/robot-distancia.egg-link (link to .)
+[1.593s] Invoked command in '/home/jsc/ros2_ws/build/robot_distancia' returned '0': PYTHONPATH=/home/jsc/ros2_ws/build/robot_distancia/prefix_override:/home/jsc/ros2_ws/install/robot_distancia/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/jsc/ros2_ws/build/robot_distancia/build
+[1.595s] Invoking command in '/home/jsc/ros2_ws/src/robot_distancia': PYTHONPATH=/home/jsc/ros2_ws/build/robot_distancia/prefix_override:/home/jsc/ros2_ws/install/robot_distancia/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_distancia build --build-base /home/jsc/ros2_ws/build/robot_distancia/build install --record /home/jsc/ros2_ws/build/robot_distancia/install.log --single-version-externally-managed install_data --force
+[1.852s] running egg_info
+[1.853s] writing ../../build/robot_distancia/robot_distancia.egg-info/PKG-INFO
+[1.853s] writing dependency_links to ../../build/robot_distancia/robot_distancia.egg-info/dependency_links.txt
+[1.853s] writing entry points to ../../build/robot_distancia/robot_distancia.egg-info/entry_points.txt
+[1.854s] writing requirements to ../../build/robot_distancia/robot_distancia.egg-info/requires.txt
+[1.854s] writing top-level names to ../../build/robot_distancia/robot_distancia.egg-info/top_level.txt
+[1.856s] reading manifest file '../../build/robot_distancia/robot_distancia.egg-info/SOURCES.txt'
+[1.857s] adding license file 'LICENSE'
+[1.858s] writing manifest file '../../build/robot_distancia/robot_distancia.egg-info/SOURCES.txt'
+[1.858s] running build
+[1.858s] running build_py
+[1.858s] copying robot_distancia/sensor_distancia.py -> /home/jsc/ros2_ws/build/robot_distancia/build/lib/robot_distancia
+[1.859s] running install
+[1.859s] running install_lib
+[1.860s] creating /home/jsc/ros2_ws/install/robot_distancia/lib/python3.10/site-packages/robot_distancia
+[1.860s] copying /home/jsc/ros2_ws/build/robot_distancia/build/lib/robot_distancia/sensor_distancia.py -> /home/jsc/ros2_ws/install/robot_distancia/lib/python3.10/site-packages/robot_distancia
+[1.860s] copying /home/jsc/ros2_ws/build/robot_distancia/build/lib/robot_distancia/dista.py -> /home/jsc/ros2_ws/install/robot_distancia/lib/python3.10/site-packages/robot_distancia
+[1.861s] copying /home/jsc/ros2_ws/build/robot_distancia/build/lib/robot_distancia/__init__.py -> /home/jsc/ros2_ws/install/robot_distancia/lib/python3.10/site-packages/robot_distancia
+[1.861s] byte-compiling /home/jsc/ros2_ws/install/robot_distancia/lib/python3.10/site-packages/robot_distancia/sensor_distancia.py to sensor_distancia.cpython-310.pyc
+[1.862s] byte-compiling /home/jsc/ros2_ws/install/robot_distancia/lib/python3.10/site-packages/robot_distancia/dista.py to dista.cpython-310.pyc
+[1.863s] byte-compiling /home/jsc/ros2_ws/install/robot_distancia/lib/python3.10/site-packages/robot_distancia/__init__.py to __init__.cpython-310.pyc
+[1.863s] running install_data
+[1.863s] copying resource/robot_distancia -> /home/jsc/ros2_ws/install/robot_distancia/share/ament_index/resource_index/packages
+[1.864s] copying package.xml -> /home/jsc/ros2_ws/install/robot_distancia/share/robot_distancia
+[1.864s] running install_egg_info
+[1.866s] Copying ../../build/robot_distancia/robot_distancia.egg-info to /home/jsc/ros2_ws/install/robot_distancia/lib/python3.10/site-packages/robot_distancia-0.0.0-py3.10.egg-info
+[1.867s] running install_scripts
+[1.898s] Installing distancia script to /home/jsc/ros2_ws/install/robot_distancia/lib/robot_distancia
+[1.898s] writing list of installed files to '/home/jsc/ros2_ws/build/robot_distancia/install.log'
+[1.928s] Invoked command in '/home/jsc/ros2_ws/src/robot_distancia' returned '0': PYTHONPATH=/home/jsc/ros2_ws/build/robot_distancia/prefix_override:/home/jsc/ros2_ws/install/robot_distancia/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_distancia build --build-base /home/jsc/ros2_ws/build/robot_distancia/build install --record /home/jsc/ros2_ws/build/robot_distancia/install.log --single-version-externally-managed install_data --force

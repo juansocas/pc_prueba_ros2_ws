@@ -1,0 +1,7 @@
+[01m[K/home/jsc/ros2_ws/src/delta_lidar/src/node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/jsc/ros2_ws/src/delta_lidar/src/node.cpp:119:30:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator*[m[K’ (operand type is ‘[01m[Keverest::hwdrivers::CSerialConnection[m[K’)
+  119 |     robotics_lidar.initilize([01;31m[K*serial_connect[m[K);
+      |                              [01;31m[K^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/delta_lidar_node.dir/build.make:76: CMakeFiles/delta_lidar_node.dir/src/node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/delta_lidar_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,38 @@
+[1.842s] Invoking command in '/home/jsc/ros2_ws/build/wheel_control': PYTHONPATH=/home/jsc/ros2_ws/build/wheel_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jsc/ros2_ws/install/wheel_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/jsc/ros2_ws/build/wheel_control/build
+[2.130s] running develop
+[2.130s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.130s]   warnings.warn(
+[2.306s] Removing /home/jsc/ros2_ws/install/wheel_control/lib/python3.10/site-packages/wheel-control.egg-link (link to .)
+[2.335s] Invoked command in '/home/jsc/ros2_ws/build/wheel_control' returned '0': PYTHONPATH=/home/jsc/ros2_ws/build/wheel_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jsc/ros2_ws/install/wheel_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/jsc/ros2_ws/build/wheel_control/build
+[2.337s] Invoking command in '/home/jsc/ros2_ws/src/wheel_control': PYTHONPATH=/home/jsc/ros2_ws/build/wheel_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jsc/ros2_ws/install/wheel_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/wheel_control build --build-base /home/jsc/ros2_ws/build/wheel_control/build install --record /home/jsc/ros2_ws/build/wheel_control/install.log --single-version-externally-managed install_data --force
+[2.570s] running egg_info
+[2.571s] writing ../../build/wheel_control/wheel_control.egg-info/PKG-INFO
+[2.571s] writing dependency_links to ../../build/wheel_control/wheel_control.egg-info/dependency_links.txt
+[2.572s] writing entry points to ../../build/wheel_control/wheel_control.egg-info/entry_points.txt
+[2.572s] writing requirements to ../../build/wheel_control/wheel_control.egg-info/requires.txt
+[2.572s] writing top-level names to ../../build/wheel_control/wheel_control.egg-info/top_level.txt
+[2.573s] reading manifest file '../../build/wheel_control/wheel_control.egg-info/SOURCES.txt'
+[2.581s] writing manifest file '../../build/wheel_control/wheel_control.egg-info/SOURCES.txt'
+[2.581s] running build
+[2.581s] running build_py
+[2.581s] creating /home/jsc/ros2_ws/build/wheel_control/build
+[2.581s] creating /home/jsc/ros2_ws/build/wheel_control/build/lib
+[2.581s] creating /home/jsc/ros2_ws/build/wheel_control/build/lib/wheel_control
+[2.581s] copying wheel_control/wheel_control_node.py -> /home/jsc/ros2_ws/build/wheel_control/build/lib/wheel_control
+[2.581s] copying wheel_control/__init__.py -> /home/jsc/ros2_ws/build/wheel_control/build/lib/wheel_control
+[2.582s] running install
+[2.582s] running install_lib
+[2.583s] creating /home/jsc/ros2_ws/install/wheel_control/lib/python3.10/site-packages/wheel_control
+[2.583s] copying /home/jsc/ros2_ws/build/wheel_control/build/lib/wheel_control/wheel_control_node.py -> /home/jsc/ros2_ws/install/wheel_control/lib/python3.10/site-packages/wheel_control
+[2.583s] copying /home/jsc/ros2_ws/build/wheel_control/build/lib/wheel_control/__init__.py -> /home/jsc/ros2_ws/install/wheel_control/lib/python3.10/site-packages/wheel_control
+[2.583s] byte-compiling /home/jsc/ros2_ws/install/wheel_control/lib/python3.10/site-packages/wheel_control/wheel_control_node.py to wheel_control_node.cpython-310.pyc
+[2.584s] byte-compiling /home/jsc/ros2_ws/install/wheel_control/lib/python3.10/site-packages/wheel_control/__init__.py to __init__.cpython-310.pyc
+[2.584s] running install_data
+[2.584s] copying resource/wheel_control -> /home/jsc/ros2_ws/install/wheel_control/share/ament_index/resource_index/packages
+[2.584s] copying package.xml -> /home/jsc/ros2_ws/install/wheel_control/share/wheel_control
+[2.584s] running install_egg_info
+[2.587s] Copying ../../build/wheel_control/wheel_control.egg-info to /home/jsc/ros2_ws/install/wheel_control/lib/python3.10/site-packages/wheel_control-0.0.0-py3.10.egg-info
+[2.588s] running install_scripts
+[2.607s] Installing wheel_control_node script to /home/jsc/ros2_ws/install/wheel_control/lib/wheel_control
+[2.607s] writing list of installed files to '/home/jsc/ros2_ws/build/wheel_control/install.log'
+[2.627s] Invoked command in '/home/jsc/ros2_ws/src/wheel_control' returned '0': PYTHONPATH=/home/jsc/ros2_ws/build/wheel_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jsc/ros2_ws/install/wheel_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/wheel_control build --build-base /home/jsc/ros2_ws/build/wheel_control/build install --record /home/jsc/ros2_ws/build/wheel_control/install.log --single-version-externally-managed install_data --force

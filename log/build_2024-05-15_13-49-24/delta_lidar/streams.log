@@ -1,0 +1,55 @@
+[0.034s] Invoking command in '/home/jsc/ros2_ws/build/delta_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/prueba:/home/jsc/ros2_ws/install/aros2duino:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --build /home/jsc/ros2_ws/build/delta_lidar -- -j12 -l12
+[0.811s] [ 14%] Built target delta_lidar_node_client
+[0.811s] [100%] Built target delta_lidar_node
+[0.818s] Invoked command in '/home/jsc/ros2_ws/build/delta_lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/prueba:/home/jsc/ros2_ws/install/aros2duino:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --build /home/jsc/ros2_ws/build/delta_lidar -- -j12 -l12
+[0.906s] Invoking command in '/home/jsc/ros2_ws/build/delta_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/prueba:/home/jsc/ros2_ws/install/aros2duino:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --install /home/jsc/ros2_ws/build/delta_lidar
+[0.915s] -- Install configuration: ""
+[0.915s] -- Up-to-date: /home/jsc/ros2_ws/install/delta_lidar/lib/delta_lidar/delta_lidar_node
+[0.916s] -- Up-to-date: /home/jsc/ros2_ws/install/delta_lidar/lib/delta_lidar/delta_lidar_node_client
+[0.916s] -- Up-to-date: /home/jsc/ros2_ws/install/delta_lidar/share/delta_lidar/launch
+[0.916s] -- Up-to-date: /home/jsc/ros2_ws/install/delta_lidar/share/delta_lidar/launch/delta_lidar.py
+[0.916s] -- Up-to-date: /home/jsc/ros2_ws/install/delta_lidar/share/delta_lidar/launch/view_delta_lidar.py
+[0.917s] -- Up-to-date: /home/jsc/ros2_ws/install/delta_lidar/share/delta_lidar/rviz
+[0.917s] -- Up-to-date: /home/jsc/ros2_ws/install/delta_lidar/share/delta_lidar/rviz/delta_lidar.rviz
+[0.917s] -- Up-to-date: /home/jsc/ros2_ws/install/delta_lidar/share/delta_lidar/sdk
+[0.917s] -- Up-to-date: /home/jsc/ros2_ws/install/delta_lidar/share/delta_lidar/sdk/src
+[0.917s] -- Up-to-date: /home/jsc/ros2_ws/install/delta_lidar/share/delta_lidar/sdk/src/CSimulateSerial.cpp
+[0.918s] -- Up-to-date: /home/jsc/ros2_ws/install/delta_lidar/share/delta_lidar/sdk/src/CLidarUnpacket.cpp
+[0.918s] -- Up-to-date: /home/jsc/ros2_ws/install/delta_lidar/share/delta_lidar/sdk/src/CCountDown.cpp
+[0.918s] -- Up-to-date: /home/jsc/ros2_ws/install/delta_lidar/share/delta_lidar/sdk/src/CDeviceConnection.cpp
+[0.918s] -- Up-to-date: /home/jsc/ros2_ws/install/delta_lidar/share/delta_lidar/sdk/src/CLidarPacket.cpp
+[0.918s] -- Up-to-date: /home/jsc/ros2_ws/install/delta_lidar/share/delta_lidar/sdk/src/CSerialConnection.cpp
+[0.918s] -- Up-to-date: /home/jsc/ros2_ws/install/delta_lidar/share/delta_lidar/sdk/src/CArcTime.cpp
+[0.918s] -- Up-to-date: /home/jsc/ros2_ws/install/delta_lidar/share/delta_lidar/sdk/src/CLidarPacketReceiver.cpp
+[0.918s] -- Up-to-date: /home/jsc/ros2_ws/install/delta_lidar/share/delta_lidar/sdk/src/C3iroboticsLidar.cpp
+[0.919s] -- Up-to-date: /home/jsc/ros2_ws/install/delta_lidar/share/delta_lidar/sdk/src/CTime.cpp
+[0.919s] -- Up-to-date: /home/jsc/ros2_ws/install/delta_lidar/share/delta_lidar/sdk/include
+[0.919s] -- Up-to-date: /home/jsc/ros2_ws/install/delta_lidar/share/delta_lidar/sdk/include/CTime.h
+[0.919s] -- Up-to-date: /home/jsc/ros2_ws/install/delta_lidar/share/delta_lidar/sdk/include/CLidarPacketReceiver.h
+[0.919s] -- Up-to-date: /home/jsc/ros2_ws/install/delta_lidar/share/delta_lidar/sdk/include/CLidarPacket.h
+[0.919s] -- Up-to-date: /home/jsc/ros2_ws/install/delta_lidar/share/delta_lidar/sdk/include/C3iroboticsLidarProtocol.h
+[0.919s] -- Up-to-date: /home/jsc/ros2_ws/install/delta_lidar/share/delta_lidar/sdk/include/CLogUtitls.h
+[0.919s] -- Up-to-date: /home/jsc/ros2_ws/install/delta_lidar/share/delta_lidar/sdk/include/typedef.h
+[0.920s] -- Up-to-date: /home/jsc/ros2_ws/install/delta_lidar/share/delta_lidar/sdk/include/CSimulateSerial.h
+[0.920s] -- Up-to-date: /home/jsc/ros2_ws/install/delta_lidar/share/delta_lidar/sdk/include/C3iroboticsLidar.h
+[0.921s] -- Up-to-date: /home/jsc/ros2_ws/install/delta_lidar/share/delta_lidar/sdk/include/CSerialConnection.h
+[0.921s] -- Up-to-date: /home/jsc/ros2_ws/install/delta_lidar/share/delta_lidar/sdk/include/CDeviceConnection.h
+[0.921s] -- Up-to-date: /home/jsc/ros2_ws/install/delta_lidar/share/delta_lidar/sdk/include/CCountDown.h
+[0.921s] -- Up-to-date: /home/jsc/ros2_ws/install/delta_lidar/share/delta_lidar/sdk/include/CLidarUnpacket.h
+[0.922s] -- Up-to-date: /home/jsc/ros2_ws/install/delta_lidar/share/delta_lidar/sdk/include/CArcTime.h
+[0.922s] -- Up-to-date: /home/jsc/ros2_ws/install/delta_lidar/share/ament_index/resource_index/package_run_dependencies/delta_lidar
+[0.922s] -- Up-to-date: /home/jsc/ros2_ws/install/delta_lidar/share/ament_index/resource_index/parent_prefix_path/delta_lidar
+[0.923s] -- Up-to-date: /home/jsc/ros2_ws/install/delta_lidar/share/delta_lidar/environment/ament_prefix_path.sh
+[0.923s] -- Up-to-date: /home/jsc/ros2_ws/install/delta_lidar/share/delta_lidar/environment/ament_prefix_path.dsv
+[0.923s] -- Up-to-date: /home/jsc/ros2_ws/install/delta_lidar/share/delta_lidar/environment/path.sh
+[0.923s] -- Up-to-date: /home/jsc/ros2_ws/install/delta_lidar/share/delta_lidar/environment/path.dsv
+[0.924s] -- Up-to-date: /home/jsc/ros2_ws/install/delta_lidar/share/delta_lidar/local_setup.bash
+[0.924s] -- Up-to-date: /home/jsc/ros2_ws/install/delta_lidar/share/delta_lidar/local_setup.sh
+[0.924s] -- Up-to-date: /home/jsc/ros2_ws/install/delta_lidar/share/delta_lidar/local_setup.zsh
+[0.924s] -- Up-to-date: /home/jsc/ros2_ws/install/delta_lidar/share/delta_lidar/local_setup.dsv
+[0.925s] -- Installing: /home/jsc/ros2_ws/install/delta_lidar/share/delta_lidar/package.dsv
+[0.925s] -- Up-to-date: /home/jsc/ros2_ws/install/delta_lidar/share/ament_index/resource_index/packages/delta_lidar
+[0.925s] -- Up-to-date: /home/jsc/ros2_ws/install/delta_lidar/share/delta_lidar/cmake/delta_lidarConfig.cmake
+[0.925s] -- Up-to-date: /home/jsc/ros2_ws/install/delta_lidar/share/delta_lidar/cmake/delta_lidarConfig-version.cmake
+[0.925s] -- Up-to-date: /home/jsc/ros2_ws/install/delta_lidar/share/delta_lidar/package.xml
+[0.926s] Invoked command in '/home/jsc/ros2_ws/build/delta_lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/prueba:/home/jsc/ros2_ws/install/aros2duino:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --install /home/jsc/ros2_ws/build/delta_lidar

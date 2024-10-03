@@ -1,0 +1,23 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+creating prueba.egg-info
+writing prueba.egg-info/PKG-INFO
+writing dependency_links to prueba.egg-info/dependency_links.txt
+writing entry points to prueba.egg-info/entry_points.txt
+writing requirements to prueba.egg-info/requires.txt
+writing top-level names to prueba.egg-info/top_level.txt
+writing manifest file 'prueba.egg-info/SOURCES.txt'
+reading manifest file 'prueba.egg-info/SOURCES.txt'
+writing manifest file 'prueba.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jsc/ros2_ws/install/prueba/lib/python3.10/site-packages/prueba.egg-link (link to .)
+
+Installed /home/jsc/ros2_ws/build/prueba
+running symlink_data
+creating /home/jsc/ros2_ws/install/prueba/share/ament_index
+creating /home/jsc/ros2_ws/install/prueba/share/ament_index/resource_index
+creating /home/jsc/ros2_ws/install/prueba/share/ament_index/resource_index/packages
+symbolically linking /home/jsc/ros2_ws/build/prueba/resource/prueba -> /home/jsc/ros2_ws/install/prueba/share/ament_index/resource_index/packages
+symbolically linking /home/jsc/ros2_ws/build/prueba/package.xml -> /home/jsc/ros2_ws/install/prueba/share/prueba

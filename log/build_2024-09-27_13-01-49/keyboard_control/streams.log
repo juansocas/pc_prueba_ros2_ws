@@ -1,0 +1,19 @@
+[0.639s] Invoking command in '/home/jsc/ros2_ws/build/keyboard_control': PYTHONPATH=/home/jsc/ros2_ws/build/keyboard_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jsc/ros2_ws/install/keyboard_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jsc/ros2_ws/build/keyboard_control/build --no-deps symlink_data
+[0.903s] running develop
+[0.903s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.903s]   warnings.warn(
+[1.069s] running egg_info
+[1.069s] writing keyboard_control.egg-info/PKG-INFO
+[1.069s] writing dependency_links to keyboard_control.egg-info/dependency_links.txt
+[1.069s] writing entry points to keyboard_control.egg-info/entry_points.txt
+[1.069s] writing requirements to keyboard_control.egg-info/requires.txt
+[1.069s] writing top-level names to keyboard_control.egg-info/top_level.txt
+[1.070s] reading manifest file 'keyboard_control.egg-info/SOURCES.txt'
+[1.071s] writing manifest file 'keyboard_control.egg-info/SOURCES.txt'
+[1.072s] running build_ext
+[1.072s] Creating /home/jsc/ros2_ws/install/keyboard_control/lib/python3.10/site-packages/keyboard-control.egg-link (link to .)
+[1.073s] Installing keyboard_control_node script to /home/jsc/ros2_ws/install/keyboard_control/lib/keyboard_control
+[1.073s] 
+[1.073s] Installed /home/jsc/ros2_ws/build/keyboard_control
+[1.073s] running symlink_data
+[1.095s] Invoked command in '/home/jsc/ros2_ws/build/keyboard_control' returned '0': PYTHONPATH=/home/jsc/ros2_ws/build/keyboard_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jsc/ros2_ws/install/keyboard_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jsc/ros2_ws/build/keyboard_control/build --no-deps symlink_data

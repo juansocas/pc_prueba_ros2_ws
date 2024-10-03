@@ -1,0 +1,22 @@
+[1.575s] Invoking command in '/home/jsc/ros2_ws/src/robot_distancia': PYTHONPATH=/home/jsc/ros2_ws/build/robot_distancia/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jsc/ros2_ws/install/robot_distancia/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_distancia build --build-base /home/jsc/ros2_ws/build/robot_distancia/build install --record /home/jsc/ros2_ws/build/robot_distancia/install.log --single-version-externally-managed install_data
+[1.826s] running egg_info
+[1.827s] writing ../../build/robot_distancia/robot_distancia.egg-info/PKG-INFO
+[1.827s] writing dependency_links to ../../build/robot_distancia/robot_distancia.egg-info/dependency_links.txt
+[1.827s] writing entry points to ../../build/robot_distancia/robot_distancia.egg-info/entry_points.txt
+[1.828s] writing requirements to ../../build/robot_distancia/robot_distancia.egg-info/requires.txt
+[1.828s] writing top-level names to ../../build/robot_distancia/robot_distancia.egg-info/top_level.txt
+[1.830s] reading manifest file '../../build/robot_distancia/robot_distancia.egg-info/SOURCES.txt'
+[1.830s] adding license file 'LICENSE'
+[1.831s] writing manifest file '../../build/robot_distancia/robot_distancia.egg-info/SOURCES.txt'
+[1.831s] running build
+[1.831s] running build_py
+[1.832s] running install
+[1.832s] running install_lib
+[1.834s] running install_data
+[1.834s] running install_egg_info
+[1.838s] removing '/home/jsc/ros2_ws/install/robot_distancia/lib/python3.10/site-packages/robot_distancia-0.0.0-py3.10.egg-info' (and everything under it)
+[1.838s] Copying ../../build/robot_distancia/robot_distancia.egg-info to /home/jsc/ros2_ws/install/robot_distancia/lib/python3.10/site-packages/robot_distancia-0.0.0-py3.10.egg-info
+[1.839s] running install_scripts
+[1.863s] Installing distancia script to /home/jsc/ros2_ws/install/robot_distancia/lib/robot_distancia
+[1.863s] writing list of installed files to '/home/jsc/ros2_ws/build/robot_distancia/install.log'
+[1.892s] Invoked command in '/home/jsc/ros2_ws/src/robot_distancia' returned '0': PYTHONPATH=/home/jsc/ros2_ws/build/robot_distancia/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jsc/ros2_ws/install/robot_distancia/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_distancia build --build-base /home/jsc/ros2_ws/build/robot_distancia/build install --record /home/jsc/ros2_ws/build/robot_distancia/install.log --single-version-externally-managed install_data

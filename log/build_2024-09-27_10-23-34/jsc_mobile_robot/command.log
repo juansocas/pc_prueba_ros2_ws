@@ -1,0 +1,2 @@
+Invoking command in '/home/jsc/ros2_ws/build/jsc_mobile_robot': /usr/bin/cmake /home/jsc/ros2_ws/src/jsc_mobile_robot -DCMAKE_INSTALL_PREFIX=/home/jsc/ros2_ws/install/jsc_mobile_robot
+Invoked command in '/home/jsc/ros2_ws/build/jsc_mobile_robot' returned '1': /usr/bin/cmake /home/jsc/ros2_ws/src/jsc_mobile_robot -DCMAKE_INSTALL_PREFIX=/home/jsc/ros2_ws/install/jsc_mobile_robot

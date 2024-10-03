@@ -1,0 +1,24 @@
+[0.045s] Invoking command in '/home/jsc/ros2_ws/build/jsc_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/prueba:/home/jsc/ros2_ws/install/aros2duino:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --build /home/jsc/ros2_ws/build/jsc_bot_description -- -j12 -l12
+[1.093s] Invoked command in '/home/jsc/ros2_ws/build/jsc_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/prueba:/home/jsc/ros2_ws/install/aros2duino:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --build /home/jsc/ros2_ws/build/jsc_bot_description -- -j12 -l12
+[1.121s] Invoking command in '/home/jsc/ros2_ws/build/jsc_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/prueba:/home/jsc/ros2_ws/install/aros2duino:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --install /home/jsc/ros2_ws/build/jsc_bot_description
+[1.131s] -- Install configuration: ""
+[1.132s] -- Execute custom install script
+[1.132s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_bot_description/share/jsc_bot_description/src/description/jsc_bot_description
+[1.133s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_bot_description/share/jsc_bot_description/launch/display.launch.py
+[1.133s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_bot_description/share/jsc_bot_description/rviz/ urdf_config.rviz
+[1.133s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_bot_description/share/ament_index/resource_index/package_run_dependencies/jsc_bot_description
+[1.133s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_bot_description/share/ament_index/resource_index/parent_prefix_path/jsc_bot_description
+[1.134s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_bot_description/share/jsc_bot_description/environment/ament_prefix_path.sh
+[1.134s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_bot_description/share/jsc_bot_description/environment/ament_prefix_path.dsv
+[1.134s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_bot_description/share/jsc_bot_description/environment/path.sh
+[1.135s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_bot_description/share/jsc_bot_description/environment/path.dsv
+[1.135s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_bot_description/share/jsc_bot_description/local_setup.bash
+[1.135s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_bot_description/share/jsc_bot_description/local_setup.sh
+[1.136s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_bot_description/share/jsc_bot_description/local_setup.zsh
+[1.136s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_bot_description/share/jsc_bot_description/local_setup.dsv
+[1.136s] -- Symlinking: /home/jsc/ros2_ws/install/jsc_bot_description/share/jsc_bot_description/package.dsv
+[1.147s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_bot_description/share/ament_index/resource_index/packages/jsc_bot_description
+[1.149s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_bot_description/share/jsc_bot_description/cmake/jsc_bot_descriptionConfig.cmake
+[1.150s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_bot_description/share/jsc_bot_description/cmake/jsc_bot_descriptionConfig-version.cmake
+[1.150s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_bot_description/share/jsc_bot_description/package.xml
+[1.152s] Invoked command in '/home/jsc/ros2_ws/build/jsc_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/prueba:/home/jsc/ros2_ws/install/aros2duino:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --install /home/jsc/ros2_ws/build/jsc_bot_description

@@ -1,0 +1,22 @@
+[1.145s] Invoking command in '/home/jsc/ros2_ws/build/robot_controller': PYTHONPATH=/home/jsc/ros2_ws/build/robot_controller/prefix_override:/home/jsc/ros2_ws/install/robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jsc/ros2_ws/build/robot_controller/build --no-deps symlink_data --force
+[1.410s] running develop
+[1.410s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.411s]   warnings.warn(
+[1.567s] running egg_info
+[1.567s] writing robot_controller.egg-info/PKG-INFO
+[1.567s] writing dependency_links to robot_controller.egg-info/dependency_links.txt
+[1.567s] writing entry points to robot_controller.egg-info/entry_points.txt
+[1.568s] writing requirements to robot_controller.egg-info/requires.txt
+[1.568s] writing top-level names to robot_controller.egg-info/top_level.txt
+[1.572s] reading manifest file 'robot_controller.egg-info/SOURCES.txt'
+[1.572s] writing manifest file 'robot_controller.egg-info/SOURCES.txt'
+[1.573s] running build_ext
+[1.573s] Creating /home/jsc/ros2_ws/install/robot_controller/lib/python3.10/site-packages/robot-controller.egg-link (link to .)
+[1.574s] Installing find_ports script to /home/jsc/ros2_ws/install/robot_controller/lib/robot_controller
+[1.574s] Installing text_node script to /home/jsc/ros2_ws/install/robot_controller/lib/robot_controller
+[1.574s] 
+[1.574s] Installed /home/jsc/ros2_ws/build/robot_controller
+[1.574s] running symlink_data
+[1.574s] symbolically linking /home/jsc/ros2_ws/build/robot_controller/resource/robot_controller -> /home/jsc/ros2_ws/install/robot_controller/share/ament_index/resource_index/packages
+[1.574s] symbolically linking /home/jsc/ros2_ws/build/robot_controller/package.xml -> /home/jsc/ros2_ws/install/robot_controller/share/robot_controller
+[1.623s] Invoked command in '/home/jsc/ros2_ws/build/robot_controller' returned '0': PYTHONPATH=/home/jsc/ros2_ws/build/robot_controller/prefix_override:/home/jsc/ros2_ws/install/robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jsc/ros2_ws/build/robot_controller/build --no-deps symlink_data --force

@@ -1,0 +1,3 @@
+[console_scripts]
+wheel_control_node = wheel_control.wheel_control_node:main
+

@@ -1,0 +1,40 @@
+running develop
+Removing /home/jsc/ros2_ws/install/aros2duino/lib/python3.10/site-packages/aros2duino.egg-link (link to .)
+running egg_info
+writing ../../../../build/aros2duino/aros2duino.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/aros2duino/aros2duino.egg-info/dependency_links.txt
+writing entry points to ../../../../build/aros2duino/aros2duino.egg-info/entry_points.txt
+writing requirements to ../../../../build/aros2duino/aros2duino.egg-info/requires.txt
+writing top-level names to ../../../../build/aros2duino/aros2duino.egg-info/top_level.txt
+reading manifest file '../../../../build/aros2duino/aros2duino.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/aros2duino/aros2duino.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jsc/ros2_ws/build/aros2duino/build
+creating /home/jsc/ros2_ws/build/aros2duino/build/lib
+creating /home/jsc/ros2_ws/build/aros2duino/build/lib/aros2duino
+copying aros2duino/test_writing.py -> /home/jsc/ros2_ws/build/aros2duino/build/lib/aros2duino
+copying aros2duino/__init__.py -> /home/jsc/ros2_ws/build/aros2duino/build/lib/aros2duino
+copying aros2duino/serial_comm.py -> /home/jsc/ros2_ws/build/aros2duino/build/lib/aros2duino
+copying aros2duino/find_ports.py -> /home/jsc/ros2_ws/build/aros2duino/build/lib/aros2duino
+running install
+running install_lib
+creating /home/jsc/ros2_ws/install/aros2duino/lib/python3.10/site-packages/aros2duino
+copying /home/jsc/ros2_ws/build/aros2duino/build/lib/aros2duino/test_writing.py -> /home/jsc/ros2_ws/install/aros2duino/lib/python3.10/site-packages/aros2duino
+copying /home/jsc/ros2_ws/build/aros2duino/build/lib/aros2duino/__init__.py -> /home/jsc/ros2_ws/install/aros2duino/lib/python3.10/site-packages/aros2duino
+copying /home/jsc/ros2_ws/build/aros2duino/build/lib/aros2duino/serial_comm.py -> /home/jsc/ros2_ws/install/aros2duino/lib/python3.10/site-packages/aros2duino
+copying /home/jsc/ros2_ws/build/aros2duino/build/lib/aros2duino/find_ports.py -> /home/jsc/ros2_ws/install/aros2duino/lib/python3.10/site-packages/aros2duino
+byte-compiling /home/jsc/ros2_ws/install/aros2duino/lib/python3.10/site-packages/aros2duino/test_writing.py to test_writing.cpython-310.pyc
+byte-compiling /home/jsc/ros2_ws/install/aros2duino/lib/python3.10/site-packages/aros2duino/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/jsc/ros2_ws/install/aros2duino/lib/python3.10/site-packages/aros2duino/serial_comm.py to serial_comm.cpython-310.pyc
+byte-compiling /home/jsc/ros2_ws/install/aros2duino/lib/python3.10/site-packages/aros2duino/find_ports.py to find_ports.cpython-310.pyc
+running install_data
+copying resource/aros2duino -> /home/jsc/ros2_ws/install/aros2duino/share/ament_index/resource_index/packages
+copying package.xml -> /home/jsc/ros2_ws/install/aros2duino/share/aros2duino
+running install_egg_info
+Copying ../../../../build/aros2duino/aros2duino.egg-info to /home/jsc/ros2_ws/install/aros2duino/lib/python3.10/site-packages/aros2duino-0.0.1-py3.10.egg-info
+running install_scripts
+Installing find_ports script to /home/jsc/ros2_ws/install/aros2duino/lib/aros2duino
+Installing serial_comm script to /home/jsc/ros2_ws/install/aros2duino/lib/aros2duino
+Installing test_writing script to /home/jsc/ros2_ws/install/aros2duino/lib/aros2duino
+writing list of installed files to '/home/jsc/ros2_ws/build/aros2duino/install.log'

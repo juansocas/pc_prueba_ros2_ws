@@ -1,0 +1,25 @@
+[1.070s] Invoking command in '/home/jsc/ros2_ws/build/ros2_control_demo_example_2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/wheel_control:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/prueba:/home/jsc/ros2_ws/install/aros2duino:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake /home/jsc/ros2_ws/src/example_2 -DCMAKE_INSTALL_PREFIX=/home/jsc/ros2_ws/install/ros2_control_demo_example_2
+[1.337s] [33mCMake Warning at CMakeLists.txt:20 (find_package):
+[1.337s]   Could not find a configuration file for package "controller_manager" that
+[1.337s]   is compatible with requested version "4.0.0".
+[1.337s] 
+[1.337s]   The following configuration files were considered but not accepted:
+[1.337s] 
+[1.337s]     /opt/ros/humble/share/controller_manager/cmake/controller_managerConfig.cmake, version: 2.41.0
+[1.337s] 
+[1.337s] 
+[1.338s] [0m
+[1.338s] [31mCMake Error at CMakeLists.txt:23 (message):
+[1.338s]   ros2_control version 4.0.0 or higher is required.  Are you using the
+[1.338s]   correct branch of the ros2_control_demos repository?
+[1.339s] 
+[1.339s] [0m
+[1.339s] -- The CXX compiler identification is GNU 11.4.0
+[1.340s] -- Detecting CXX compiler ABI info
+[1.340s] -- Detecting CXX compiler ABI info - done
+[1.340s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.340s] -- Detecting CXX compile features
+[1.340s] -- Detecting CXX compile features - done
+[1.340s] -- Configuring incomplete, errors occurred!
+[1.340s] See also "/home/jsc/ros2_ws/build/ros2_control_demo_example_2/CMakeFiles/CMakeOutput.log".
+[1.346s] Invoked command in '/home/jsc/ros2_ws/build/ros2_control_demo_example_2' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/wheel_control:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/prueba:/home/jsc/ros2_ws/install/aros2duino:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake /home/jsc/ros2_ws/src/example_2 -DCMAKE_INSTALL_PREFIX=/home/jsc/ros2_ws/install/ros2_control_demo_example_2

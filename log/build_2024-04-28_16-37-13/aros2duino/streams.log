@@ -1,0 +1,28 @@
+[0.732s] Invoking command in '/home/jsc/ros2_ws/build/aros2duino': PYTHONPATH=/home/jsc/ros2_ws/build/aros2duino/prefix_override:/home/jsc/ros2_ws/install/aros2duino/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jsc/ros2_ws/build/aros2duino/build --no-deps symlink_data
+[0.971s] running develop
+[0.972s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.972s]   warnings.warn(
+[1.115s] running egg_info
+[1.115s] creating aros2duino.egg-info
+[1.115s] writing aros2duino.egg-info/PKG-INFO
+[1.115s] writing dependency_links to aros2duino.egg-info/dependency_links.txt
+[1.116s] writing entry points to aros2duino.egg-info/entry_points.txt
+[1.116s] writing requirements to aros2duino.egg-info/requires.txt
+[1.116s] writing top-level names to aros2duino.egg-info/top_level.txt
+[1.116s] writing manifest file 'aros2duino.egg-info/SOURCES.txt'
+[1.118s] reading manifest file 'aros2duino.egg-info/SOURCES.txt'
+[1.118s] writing manifest file 'aros2duino.egg-info/SOURCES.txt'
+[1.119s] running build_ext
+[1.120s] Creating /home/jsc/ros2_ws/install/aros2duino/lib/python3.10/site-packages/aros2duino.egg-link (link to .)
+[1.120s] Installing find_ports script to /home/jsc/ros2_ws/install/aros2duino/lib/aros2duino
+[1.120s] Installing serial_comm script to /home/jsc/ros2_ws/install/aros2duino/lib/aros2duino
+[1.121s] Installing test_writing script to /home/jsc/ros2_ws/install/aros2duino/lib/aros2duino
+[1.121s] 
+[1.121s] Installed /home/jsc/ros2_ws/build/aros2duino
+[1.121s] running symlink_data
+[1.121s] creating /home/jsc/ros2_ws/install/aros2duino/share/ament_index
+[1.121s] creating /home/jsc/ros2_ws/install/aros2duino/share/ament_index/resource_index
+[1.121s] creating /home/jsc/ros2_ws/install/aros2duino/share/ament_index/resource_index/packages
+[1.121s] symbolically linking /home/jsc/ros2_ws/build/aros2duino/resource/aros2duino -> /home/jsc/ros2_ws/install/aros2duino/share/ament_index/resource_index/packages
+[1.121s] symbolically linking /home/jsc/ros2_ws/build/aros2duino/package.xml -> /home/jsc/ros2_ws/install/aros2duino/share/aros2duino
+[1.147s] Invoked command in '/home/jsc/ros2_ws/build/aros2duino' returned '0': PYTHONPATH=/home/jsc/ros2_ws/build/aros2duino/prefix_override:/home/jsc/ros2_ws/install/aros2duino/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jsc/ros2_ws/build/aros2duino/build --no-deps symlink_data

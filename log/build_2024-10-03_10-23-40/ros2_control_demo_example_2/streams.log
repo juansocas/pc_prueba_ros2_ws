@@ -1,0 +1,19 @@
+[1.090s] Invoking command in '/home/jsc/ros2_ws/build/ros2_control_demo_example_2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/wheel_control:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/prueba:/home/jsc/ros2_ws/install/aros2duino:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake /home/jsc/ros2_ws/src/example_2 -DCMAKE_INSTALL_PREFIX=/home/jsc/ros2_ws/install/ros2_control_demo_example_2
+[1.367s] -- Configuring incomplete, errors occurred!
+[1.367s] See also "/home/jsc/ros2_ws/build/ros2_control_demo_example_2/CMakeFiles/CMakeOutput.log".
+[1.367s] [33mCMake Warning at CMakeLists.txt:20 (find_package):
+[1.368s]   Could not find a configuration file for package "controller_manager" that
+[1.368s]   is compatible with requested version "4.0.0".
+[1.368s] 
+[1.368s]   The following configuration files were considered but not accepted:
+[1.368s] 
+[1.368s]     /opt/ros/humble/share/controller_manager/cmake/controller_managerConfig.cmake, version: 2.43.1
+[1.368s] 
+[1.369s] 
+[1.369s] [0m
+[1.369s] [31mCMake Error at CMakeLists.txt:23 (message):
+[1.369s]   ros2_control version 4.0.0 or higher is required.  Are you using the
+[1.370s]   correct branch of the ros2_control_demos repository?
+[1.370s] 
+[1.370s] [0m
+[1.373s] Invoked command in '/home/jsc/ros2_ws/build/ros2_control_demo_example_2' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/wheel_control:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/prueba:/home/jsc/ros2_ws/install/aros2duino:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake /home/jsc/ros2_ws/src/example_2 -DCMAKE_INSTALL_PREFIX=/home/jsc/ros2_ws/install/ros2_control_demo_example_2

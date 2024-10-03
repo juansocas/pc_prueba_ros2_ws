@@ -1,0 +1,22 @@
+[1.540s] Invoking command in '/home/jsc/ros2_ws/src/robot_nav2': PYTHONPATH=/home/jsc/ros2_ws/build/robot_nav2/prefix_override:/home/jsc/ros2_ws/install/robot_nav2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_nav2 build --build-base /home/jsc/ros2_ws/build/robot_nav2/build install --record /home/jsc/ros2_ws/build/robot_nav2/install.log --single-version-externally-managed install_data
+[1.779s] running egg_info
+[1.779s] writing ../../build/robot_nav2/robot_nav2.egg-info/PKG-INFO
+[1.780s] writing dependency_links to ../../build/robot_nav2/robot_nav2.egg-info/dependency_links.txt
+[1.780s] writing entry points to ../../build/robot_nav2/robot_nav2.egg-info/entry_points.txt
+[1.780s] writing requirements to ../../build/robot_nav2/robot_nav2.egg-info/requires.txt
+[1.780s] writing top-level names to ../../build/robot_nav2/robot_nav2.egg-info/top_level.txt
+[1.782s] reading manifest file '../../build/robot_nav2/robot_nav2.egg-info/SOURCES.txt'
+[1.783s] writing manifest file '../../build/robot_nav2/robot_nav2.egg-info/SOURCES.txt'
+[1.783s] running build
+[1.783s] running build_py
+[1.783s] running install
+[1.783s] running install_lib
+[1.784s] running install_data
+[1.785s] copying launch/nav2_launch.py -> /home/jsc/ros2_ws/install/robot_nav2/share/robot_nav2/launch
+[1.785s] copying config/amcl_config.yaml -> /home/jsc/ros2_ws/install/robot_nav2/share/robot_nav2/config
+[1.785s] running install_egg_info
+[1.787s] removing '/home/jsc/ros2_ws/install/robot_nav2/lib/python3.10/site-packages/robot_nav2-0.0.0-py3.10.egg-info' (and everything under it)
+[1.787s] Copying ../../build/robot_nav2/robot_nav2.egg-info to /home/jsc/ros2_ws/install/robot_nav2/lib/python3.10/site-packages/robot_nav2-0.0.0-py3.10.egg-info
+[1.789s] running install_scripts
+[1.808s] writing list of installed files to '/home/jsc/ros2_ws/build/robot_nav2/install.log'
+[1.842s] Invoked command in '/home/jsc/ros2_ws/src/robot_nav2' returned '0': PYTHONPATH=/home/jsc/ros2_ws/build/robot_nav2/prefix_override:/home/jsc/ros2_ws/install/robot_nav2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_nav2 build --build-base /home/jsc/ros2_ws/build/robot_nav2/build install --record /home/jsc/ros2_ws/build/robot_nav2/install.log --single-version-externally-managed install_data

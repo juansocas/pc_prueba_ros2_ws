@@ -1,0 +1,19 @@
+[1.535s] Invoking command in '/home/jsc/ros2_ws/build/robot_sensor_distance': PYTHONPATH=/home/jsc/ros2_ws/build/robot_sensor_distance/prefix_override:/home/jsc/ros2_ws/install/robot_sensor_distance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jsc/ros2_ws/build/robot_sensor_distance/build --no-deps symlink_data
+[1.824s] running develop
+[1.824s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.824s]   warnings.warn(
+[2.001s] running egg_info
+[2.001s] writing robot_sensor_distance.egg-info/PKG-INFO
+[2.001s] writing dependency_links to robot_sensor_distance.egg-info/dependency_links.txt
+[2.002s] writing entry points to robot_sensor_distance.egg-info/entry_points.txt
+[2.002s] writing requirements to robot_sensor_distance.egg-info/requires.txt
+[2.002s] writing top-level names to robot_sensor_distance.egg-info/top_level.txt
+[2.004s] reading manifest file 'robot_sensor_distance.egg-info/SOURCES.txt'
+[2.005s] writing manifest file 'robot_sensor_distance.egg-info/SOURCES.txt'
+[2.007s] running build_ext
+[2.007s] Creating /home/jsc/ros2_ws/install/robot_sensor_distance/lib/python3.10/site-packages/robot-sensor-distance.egg-link (link to .)
+[2.007s] Installing distancia script to /home/jsc/ros2_ws/install/robot_sensor_distance/lib/robot_sensor_distance
+[2.008s] 
+[2.008s] Installed /home/jsc/ros2_ws/build/robot_sensor_distance
+[2.008s] running symlink_data
+[2.038s] Invoked command in '/home/jsc/ros2_ws/build/robot_sensor_distance' returned '0': PYTHONPATH=/home/jsc/ros2_ws/build/robot_sensor_distance/prefix_override:/home/jsc/ros2_ws/install/robot_sensor_distance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jsc/ros2_ws/build/robot_sensor_distance/build --no-deps symlink_data

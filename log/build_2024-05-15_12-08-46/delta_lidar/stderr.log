@@ -1,0 +1,27 @@
+[01m[K/home/jsc/ros2_ws/src/delta_lidar/src/node.cpp:11:10:[m[K [01;31m[Kfatal error: [m[Kinitializer.hpp: No such file or directory
+   11 | #include [01;31m[K<initializer.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/delta_lidar_node.dir/build.make:76: CMakeFiles/delta_lidar_node.dir/src/node.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[K/home/jsc/ros2_ws/src/delta_lidar/sdk/src/C3iroboticsLidar.cpp:[m[K In member function ‘[01m[Keverest::hwdrivers::TLidarGrabResult everest::hwdrivers::C3iroboticsLidar::combineScan(everest::hwdrivers::TToothScan&)[m[K’:
+[01m[K/home/jsc/ros2_ws/src/delta_lidar/sdk/src/C3iroboticsLidar.cpp:212:67:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  212 |                 printf("[C3iroboticsLidar] grab scan is time out [01;35m[K%d[m[K ms! Reset grab scan state, current is %5.2f, last is %5.2f! \n",
+      |                                                                  [01;35m[K~^[m[K
+      |                                                                   [01;35m[K|[m[K
+      |                                                                   [01;35m[Kint[m[K
+      |                                                                  [32m[K%ld[m[K
+  213 |                           [32m[Km_params.scan_time_out_ms[m[K, tooth_scan.angle, m_last_scan_angle);
+      |                           [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                
+      |                                    [32m[K|[m[K
+      |                                    [32m[Ksize_t {aka long unsigned int}[m[K
+[01m[K/home/jsc/ros2_ws/src/delta_lidar/sdk/src/C3iroboticsLidar.cpp:[m[K In member function ‘[01m[Keverest::hwdrivers::TLidarGrabResult everest::hwdrivers::C3iroboticsLidar::analysisHealthInfo(everest::hwdrivers::CLidarPacket&)[m[K’:
+[01m[K/home/jsc/ros2_ws/src/delta_lidar/sdk/src/C3iroboticsLidar.cpp:353:51:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 2 has type ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  353 |     printf("[C3iroboticsLidar] Lidar error is [01;35m[K%5.5f[m[K!\n", [32m[Klidar_error[m[K );
+      |                                               [01;35m[K~~~~^[m[K      [32m[K~~~~~~~~~~~[m[K
+      |                                                   [01;35m[K|[m[K      [32m[K|[m[K
+      |                                                   [01;35m[Kdouble[m[K [32m[Kint[m[K
+      |                                               [32m[K%5.5d[m[K
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/delta_lidar_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

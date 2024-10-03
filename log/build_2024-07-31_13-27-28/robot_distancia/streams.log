@@ -1,0 +1,21 @@
+[1.577s] Invoking command in '/home/jsc/ros2_ws/build/robot_distancia': PYTHONPATH=/home/jsc/ros2_ws/build/robot_distancia/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jsc/ros2_ws/install/robot_distancia/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jsc/ros2_ws/build/robot_distancia/build --no-deps symlink_data --force
+[1.872s] running develop
+[1.872s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.872s]   warnings.warn(
+[2.076s] running egg_info
+[2.076s] writing robot_distancia.egg-info/PKG-INFO
+[2.076s] writing dependency_links to robot_distancia.egg-info/dependency_links.txt
+[2.077s] writing entry points to robot_distancia.egg-info/entry_points.txt
+[2.077s] writing requirements to robot_distancia.egg-info/requires.txt
+[2.077s] writing top-level names to robot_distancia.egg-info/top_level.txt
+[2.079s] reading manifest file 'robot_distancia.egg-info/SOURCES.txt'
+[2.081s] writing manifest file 'robot_distancia.egg-info/SOURCES.txt'
+[2.083s] running build_ext
+[2.083s] Creating /home/jsc/ros2_ws/install/robot_distancia/lib/python3.10/site-packages/robot-distancia.egg-link (link to .)
+[2.085s] Installing distancia script to /home/jsc/ros2_ws/install/robot_distancia/lib/robot_distancia
+[2.086s] 
+[2.086s] Installed /home/jsc/ros2_ws/build/robot_distancia
+[2.086s] running symlink_data
+[2.087s] symbolically linking /home/jsc/ros2_ws/build/robot_distancia/resource/robot_distancia -> /home/jsc/ros2_ws/install/robot_distancia/share/ament_index/resource_index/packages
+[2.088s] symbolically linking /home/jsc/ros2_ws/build/robot_distancia/package.xml -> /home/jsc/ros2_ws/install/robot_distancia/share/robot_distancia
+[2.119s] Invoked command in '/home/jsc/ros2_ws/build/robot_distancia' returned '0': PYTHONPATH=/home/jsc/ros2_ws/build/robot_distancia/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jsc/ros2_ws/install/robot_distancia/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jsc/ros2_ws/build/robot_distancia/build --no-deps symlink_data --force

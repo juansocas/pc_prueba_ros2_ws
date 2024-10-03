@@ -1,0 +1,12 @@
+[0.000000] (-) TimerEvent: {}
+[0.000289] (-) JobUnselected: {'identifier': 'jsc_bot_description'}
+[0.000315] (-) JobUnselected: {'identifier': 'jsc_mobile_robot'}
+[0.000334] (-) JobUnselected: {'identifier': 'robot_controller'}
+[0.000349] (-) JobUnselected: {'identifier': 'robot_distancia'}
+[0.000364] (-) JobUnselected: {'identifier': 'robot_nav2'}
+[0.000379] (-) JobUnselected: {'identifier': 'robot_sensor_distance'}
+[0.000395] (-) JobUnselected: {'identifier': 'robot_slam'}
+[0.000410] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_2'}
+[0.000463] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.000479] (-) JobUnselected: {'identifier': 'wheel_control'}
+[0.000635] (-) EventReactorShutdown: {}

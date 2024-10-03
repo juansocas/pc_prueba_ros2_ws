@@ -1,0 +1,25 @@
+[1.565s] Invoking command in '/home/jsc/ros2_ws/build/robot_nav2': PYTHONPATH=/home/jsc/ros2_ws/build/robot_nav2/prefix_override:/home/jsc/ros2_ws/install/robot_nav2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jsc/ros2_ws/build/robot_nav2/build --no-deps symlink_data --force
+[1.869s] running develop
+[1.870s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.870s]   warnings.warn(
+[2.062s] running egg_info
+[2.062s] writing robot_nav2.egg-info/PKG-INFO
+[2.062s] writing dependency_links to robot_nav2.egg-info/dependency_links.txt
+[2.062s] writing entry points to robot_nav2.egg-info/entry_points.txt
+[2.062s] writing requirements to robot_nav2.egg-info/requires.txt
+[2.062s] writing top-level names to robot_nav2.egg-info/top_level.txt
+[2.065s] reading manifest file 'robot_nav2.egg-info/SOURCES.txt'
+[2.066s] writing manifest file 'robot_nav2.egg-info/SOURCES.txt'
+[2.068s] running build_ext
+[2.068s] Creating /home/jsc/ros2_ws/install/robot_nav2/lib/python3.10/site-packages/robot-nav2.egg-link (link to .)
+[2.070s] 
+[2.070s] Installed /home/jsc/ros2_ws/build/robot_nav2
+[2.070s] running symlink_data
+[2.070s] symbolically linking /home/jsc/ros2_ws/build/robot_nav2/resource/robot_nav2 -> /home/jsc/ros2_ws/install/robot_nav2/share/ament_index/resource_index/packages
+[2.070s] symbolically linking /home/jsc/ros2_ws/build/robot_nav2/package.xml -> /home/jsc/ros2_ws/install/robot_nav2/share/robot_nav2
+[2.070s] symbolically linking /home/jsc/ros2_ws/build/robot_nav2/launch/lidar_launch.py -> /home/jsc/ros2_ws/install/robot_nav2/share/robot_nav2/launch
+[2.070s] symbolically linking /home/jsc/ros2_ws/build/robot_nav2/launch/amcl_launch.py -> /home/jsc/ros2_ws/install/robot_nav2/share/robot_nav2/launch
+[2.070s] symbolically linking /home/jsc/ros2_ws/build/robot_nav2/launch/nav2_launch.py -> /home/jsc/ros2_ws/install/robot_nav2/share/robot_nav2/launch
+[2.070s] symbolically linking /home/jsc/ros2_ws/build/robot_nav2/config/amcl_config.yaml -> /home/jsc/ros2_ws/install/robot_nav2/share/robot_nav2/config
+[2.071s] symbolically linking /home/jsc/ros2_ws/build/robot_nav2/config/nav2_params.yaml -> /home/jsc/ros2_ws/install/robot_nav2/share/robot_nav2/config
+[2.106s] Invoked command in '/home/jsc/ros2_ws/build/robot_nav2' returned '0': PYTHONPATH=/home/jsc/ros2_ws/build/robot_nav2/prefix_override:/home/jsc/ros2_ws/install/robot_nav2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jsc/ros2_ws/build/robot_nav2/build --no-deps symlink_data --force

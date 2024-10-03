@@ -1,0 +1,79 @@
+[0.032s] Invoking command in '/home/jsc/ros2_ws/build/delta_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/prueba:/home/jsc/ros2_ws/install/aros2duino:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake /home/jsc/ros2_ws/src/delta_lidar -DCMAKE_INSTALL_PREFIX=/home/jsc/ros2_ws/install/delta_lidar
+[0.792s] -- The C compiler identification is GNU 11.4.0
+[0.792s] -- The CXX compiler identification is GNU 11.4.0
+[0.793s] -- Detecting C compiler ABI info
+[0.793s] -- Detecting C compiler ABI info - done
+[0.794s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.794s] -- Detecting C compile features
+[0.795s] -- Detecting C compile features - done
+[0.795s] -- Detecting CXX compiler ABI info
+[0.795s] -- Detecting CXX compiler ABI info - done
+[0.795s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.795s] -- Detecting CXX compile features
+[0.795s] -- Detecting CXX compile features - done
+[0.795s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.796s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.796s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.796s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.796s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.796s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.798s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.799s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.799s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.799s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.847s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.873s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.921s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.934s] -- Looking for pthread.h
+[1.005s] -- Looking for pthread.h - found
+[1.006s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.086s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.087s] -- Found Threads: TRUE  
+[1.261s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.461s] -- Configuring done
+[1.475s] -- Generating done
+[1.476s] -- Build files have been written to: /home/jsc/ros2_ws/build/delta_lidar
+[1.487s] Invoked command in '/home/jsc/ros2_ws/build/delta_lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/prueba:/home/jsc/ros2_ws/install/aros2duino:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake /home/jsc/ros2_ws/src/delta_lidar -DCMAKE_INSTALL_PREFIX=/home/jsc/ros2_ws/install/delta_lidar
+[1.489s] Invoking command in '/home/jsc/ros2_ws/build/delta_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/prueba:/home/jsc/ros2_ws/install/aros2duino:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --build /home/jsc/ros2_ws/build/delta_lidar -- -j12 -l12
+[1.545s] [ 21%] [32mBuilding CXX object CMakeFiles/delta_lidar_node_client.dir/src/client.cpp.o[0m
+[1.545s] [ 21%] [32mBuilding CXX object CMakeFiles/delta_lidar_node.dir/sdk/src/C3iroboticsLidar.cpp.o[0m
+[1.546s] [ 28%] [32mBuilding CXX object CMakeFiles/delta_lidar_node.dir/sdk/src/CCountDown.cpp.o[0m
+[1.546s] [ 35%] [32mBuilding CXX object CMakeFiles/delta_lidar_node.dir/sdk/src/CLidarPacket.cpp.o[0m
+[1.547s] [ 42%] [32mBuilding CXX object CMakeFiles/delta_lidar_node.dir/sdk/src/CDeviceConnection.cpp.o[0m
+[1.547s] [ 50%] [32mBuilding CXX object CMakeFiles/delta_lidar_node.dir/sdk/src/CLidarPacketReceiver.cpp.o[0m
+[1.549s] [ 57%] [32mBuilding CXX object CMakeFiles/delta_lidar_node.dir/src/node.cpp.o[0m
+[1.549s] [ 64%] [32mBuilding CXX object CMakeFiles/delta_lidar_node.dir/sdk/src/CSimulateSerial.cpp.o[0m
+[1.549s] [ 64%] [32mBuilding CXX object CMakeFiles/delta_lidar_node.dir/sdk/src/CSerialConnection.cpp.o[0m
+[1.549s] [ 78%] [32mBuilding CXX object CMakeFiles/delta_lidar_node.dir/sdk/src/CArcTime.cpp.o[0m
+[1.549s] [ 78%] [32mBuilding CXX object CMakeFiles/delta_lidar_node.dir/sdk/src/CTime.cpp.o[0m
+[1.550s] [ 85%] [32mBuilding CXX object CMakeFiles/delta_lidar_node.dir/sdk/src/CLidarUnpacket.cpp.o[0m
+[1.934s] [01m[K/home/jsc/ros2_ws/src/delta_lidar/src/node.cpp:11:10:[m[K [01;31m[Kfatal error: [m[Kinitializer.hpp: No such file or directory
+[1.935s]    11 | #include [01;31m[K<initializer.hpp>[m[K
+[1.935s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.935s] compilation terminated.
+[1.939s] gmake[2]: *** [CMakeFiles/delta_lidar_node.dir/build.make:76: CMakeFiles/delta_lidar_node.dir/src/node.cpp.o] Error 1
+[1.939s] gmake[2]: *** Waiting for unfinished jobs....
+[2.060s] [01m[K/home/jsc/ros2_ws/src/delta_lidar/sdk/src/C3iroboticsLidar.cpp:[m[K In member function ‘[01m[Keverest::hwdrivers::TLidarGrabResult everest::hwdrivers::C3iroboticsLidar::combineScan(everest::hwdrivers::TToothScan&)[m[K’:
+[2.060s] [01m[K/home/jsc/ros2_ws/src/delta_lidar/sdk/src/C3iroboticsLidar.cpp:212:67:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.060s]   212 |                 printf("[C3iroboticsLidar] grab scan is time out [01;35m[K%d[m[K ms! Reset grab scan state, current is %5.2f, last is %5.2f! \n",
+[2.060s]       |                                                                  [01;35m[K~^[m[K
+[2.060s]       |                                                                   [01;35m[K|[m[K
+[2.060s]       |                                                                   [01;35m[Kint[m[K
+[2.060s]       |                                                                  [32m[K%ld[m[K
+[2.060s]   213 |                           [32m[Km_params.scan_time_out_ms[m[K, tooth_scan.angle, m_last_scan_angle);
+[2.060s]       |                           [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                
+[2.061s]       |                                    [32m[K|[m[K
+[2.061s]       |                                    [32m[Ksize_t {aka long unsigned int}[m[K
+[2.061s] [01m[K/home/jsc/ros2_ws/src/delta_lidar/sdk/src/C3iroboticsLidar.cpp:[m[K In member function ‘[01m[Keverest::hwdrivers::TLidarGrabResult everest::hwdrivers::C3iroboticsLidar::analysisHealthInfo(everest::hwdrivers::CLidarPacket&)[m[K’:
+[2.061s] [01m[K/home/jsc/ros2_ws/src/delta_lidar/sdk/src/C3iroboticsLidar.cpp:353:51:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 2 has type ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.061s]   353 |     printf("[C3iroboticsLidar] Lidar error is [01;35m[K%5.5f[m[K!\n", [32m[Klidar_error[m[K );
+[2.061s]       |                                               [01;35m[K~~~~^[m[K      [32m[K~~~~~~~~~~~[m[K
+[2.061s]       |                                                   [01;35m[K|[m[K      [32m[K|[m[K
+[2.061s]       |                                                   [01;35m[Kdouble[m[K [32m[Kint[m[K
+[2.061s]       |                                               [32m[K%5.5d[m[K
+[2.298s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/delta_lidar_node.dir/all] Error 2
+[2.298s] gmake[1]: *** Waiting for unfinished jobs....
+[8.789s] [ 92%] [32m[1mLinking CXX executable delta_lidar_node_client[0m
+[9.143s] [ 92%] Built target delta_lidar_node_client
+[9.144s] gmake: *** [Makefile:146: all] Error 2
+[9.146s] Invoked command in '/home/jsc/ros2_ws/build/delta_lidar' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/prueba:/home/jsc/ros2_ws/install/aros2duino:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --build /home/jsc/ros2_ws/build/delta_lidar -- -j12 -l12

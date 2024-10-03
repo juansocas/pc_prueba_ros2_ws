@@ -1,0 +1,24 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/jsc/ros2_ws/install/basic_mobile_robot/share/basic_mobile_robot/config/ekf.yaml
+-- Up-to-date symlink: /home/jsc/ros2_ws/install/basic_mobile_robot/share/basic_mobile_robot/launch/basic_mobile_bot_v1.launch.py
+-- Up-to-date symlink: /home/jsc/ros2_ws/install/basic_mobile_robot/share/basic_mobile_robot/launch/basic_mobile_bot_v2.launch.py
+-- Up-to-date symlink: /home/jsc/ros2_ws/install/basic_mobile_robot/share/basic_mobile_robot/launch/basic_mobile_bot_v3.launch.py
+-- Up-to-date symlink: /home/jsc/ros2_ws/install/basic_mobile_robot/share/basic_mobile_robot/launch/basic_mobile_bot_v4.launch.py
+-- Up-to-date symlink: /home/jsc/ros2_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/arm_base.stl
+-- Up-to-date symlink: /home/jsc/ros2_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/bicep.stl
+-- Up-to-date symlink: /home/jsc/ros2_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/elbow.stl
+-- Up-to-date symlink: /home/jsc/ros2_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/robot_base.stl
+-- Up-to-date symlink: /home/jsc/ros2_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/wheel.stl
+-- Up-to-date symlink: /home/jsc/ros2_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/wrist.stl
+-- Up-to-date symlink: /home/jsc/ros2_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes/arm_base.stl
+-- Up-to-date symlink: /home/jsc/ros2_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes/bicep.stl
+-- Up-to-date symlink: /home/jsc/ros2_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes/elbow.stl
+-- Up-to-date symlink: /home/jsc/ros2_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes/robot_base.stl
+-- Up-to-date symlink: /home/jsc/ros2_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes/wheel.stl
+-- Up-to-date symlink: /home/jsc/ros2_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes/wrist.stl
+-- Up-to-date symlink: /home/jsc/ros2_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/model.config
+-- Up-to-date symlink: /home/jsc/ros2_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/model.sdf
+-- Up-to-date symlink: /home/jsc/ros2_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_v1.urdf
+-- Up-to-date symlink: /home/jsc/ros2_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_v2.urdf
+-- Symlinking: /home/jsc/ros2_ws/install/basic_mobile_robot/share/basic_mobile_robot/rviz/urdf_config.rviz

@@ -1,0 +1,350 @@
+[0.121s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.121s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x77f954425cf0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x77f95459b5b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x77f95459b5b0>>)
+[0.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.296s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.296s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.296s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.296s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.296s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.296s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jsc/ros2_ws'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extension 'ignore'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extension 'ignore_ament_install'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extensions ['colcon_pkg']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extension 'colcon_pkg'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extensions ['colcon_meta']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extension 'colcon_meta'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extensions ['ros']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extension 'ros'
+[0.311s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_controller' with type 'ros.ament_python' and name 'robot_controller'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_distancia) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_distancia) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_distancia) by extension 'ignore_ament_install'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_distancia) by extensions ['colcon_pkg']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_distancia) by extension 'colcon_pkg'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_distancia) by extensions ['colcon_meta']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_distancia) by extension 'colcon_meta'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_distancia) by extensions ['ros']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_distancia) by extension 'ros'
+[0.312s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_distancia' with type 'ros.ament_python' and name 'robot_distancia'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_nav2) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_nav2) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_nav2) by extension 'ignore_ament_install'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_nav2) by extensions ['colcon_pkg']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_nav2) by extension 'colcon_pkg'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_nav2) by extensions ['colcon_meta']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_nav2) by extension 'colcon_meta'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_nav2) by extensions ['ros']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_nav2) by extension 'ros'
+[0.313s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_nav2' with type 'ros.ament_python' and name 'robot_nav2'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_sensor_distance) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_sensor_distance) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_sensor_distance) by extension 'ignore_ament_install'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_sensor_distance) by extensions ['colcon_pkg']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_sensor_distance) by extension 'colcon_pkg'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_sensor_distance) by extensions ['colcon_meta']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_sensor_distance) by extension 'colcon_meta'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_sensor_distance) by extensions ['ros']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_sensor_distance) by extension 'ros'
+[0.314s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_sensor_distance' with type 'ros.ament_python' and name 'robot_sensor_distance'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore_ament_install'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_pkg']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_pkg'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_meta']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_meta'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ros']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ros'
+[0.315s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.352s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.352s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.355s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/jsc/ros2_ws/install
+[0.356s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/jsc/Aros2duino/install
+[0.358s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 385 installed packages in /opt/ros/humble
+[0.359s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'cmake_args' from command line to 'None'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'cmake_target' from command line to 'None'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.410s] DEBUG:colcon.colcon_core.verb:Building package 'robot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jsc/ros2_ws/build/robot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jsc/ros2_ws/install/robot_controller', 'merge_install': False, 'path': '/home/jsc/ros2_ws/src/robot_controller', 'symlink_install': False, 'test_result_base': None}
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'robot_distancia' build argument 'cmake_args' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'robot_distancia' build argument 'cmake_target' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'robot_distancia' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'robot_distancia' build argument 'cmake_clean_cache' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'robot_distancia' build argument 'cmake_clean_first' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'robot_distancia' build argument 'cmake_force_configure' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'robot_distancia' build argument 'ament_cmake_args' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'robot_distancia' build argument 'catkin_cmake_args' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'robot_distancia' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.411s] DEBUG:colcon.colcon_core.verb:Building package 'robot_distancia' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jsc/ros2_ws/build/robot_distancia', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jsc/ros2_ws/install/robot_distancia', 'merge_install': False, 'path': '/home/jsc/ros2_ws/src/robot_distancia', 'symlink_install': False, 'test_result_base': None}
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'robot_nav2' build argument 'cmake_args' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'robot_nav2' build argument 'cmake_target' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'robot_nav2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'robot_nav2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'robot_nav2' build argument 'cmake_clean_first' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'robot_nav2' build argument 'cmake_force_configure' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'robot_nav2' build argument 'ament_cmake_args' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'robot_nav2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'robot_nav2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.411s] DEBUG:colcon.colcon_core.verb:Building package 'robot_nav2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jsc/ros2_ws/build/robot_nav2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jsc/ros2_ws/install/robot_nav2', 'merge_install': False, 'path': '/home/jsc/ros2_ws/src/robot_nav2', 'symlink_install': False, 'test_result_base': None}
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'robot_sensor_distance' build argument 'cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'robot_sensor_distance' build argument 'cmake_target' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'robot_sensor_distance' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'robot_sensor_distance' build argument 'cmake_clean_cache' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'robot_sensor_distance' build argument 'cmake_clean_first' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'robot_sensor_distance' build argument 'cmake_force_configure' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'robot_sensor_distance' build argument 'ament_cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'robot_sensor_distance' build argument 'catkin_cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'robot_sensor_distance' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.412s] DEBUG:colcon.colcon_core.verb:Building package 'robot_sensor_distance' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jsc/ros2_ws/build/robot_sensor_distance', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jsc/ros2_ws/install/robot_sensor_distance', 'merge_install': False, 'path': '/home/jsc/ros2_ws/src/robot_sensor_distance', 'symlink_install': False, 'test_result_base': None}
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.413s] DEBUG:colcon.colcon_core.verb:Building package 'sllidar_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jsc/ros2_ws/build/sllidar_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jsc/ros2_ws/install/sllidar_ros2', 'merge_install': False, 'path': '/home/jsc/ros2_ws/src/sllidar_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.413s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.414s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.414s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jsc/ros2_ws/src/robot_controller' with build type 'ament_python'
+[0.414s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_controller', 'ament_prefix_path')
+[0.417s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.417s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jsc/ros2_ws/install/robot_controller/share/robot_controller/hook/ament_prefix_path.ps1'
+[0.418s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jsc/ros2_ws/install/robot_controller/share/robot_controller/hook/ament_prefix_path.dsv'
+[0.418s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jsc/ros2_ws/install/robot_controller/share/robot_controller/hook/ament_prefix_path.sh'
+[0.419s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.420s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.424s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jsc/ros2_ws/src/robot_distancia' with build type 'ament_python'
+[0.424s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_distancia', 'ament_prefix_path')
+[0.425s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jsc/ros2_ws/install/robot_distancia/share/robot_distancia/hook/ament_prefix_path.ps1'
+[0.425s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jsc/ros2_ws/install/robot_distancia/share/robot_distancia/hook/ament_prefix_path.dsv'
+[0.425s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jsc/ros2_ws/install/robot_distancia/share/robot_distancia/hook/ament_prefix_path.sh'
+[0.426s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.426s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.430s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jsc/ros2_ws/src/robot_nav2' with build type 'ament_python'
+[0.430s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_nav2', 'ament_prefix_path')
+[0.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jsc/ros2_ws/install/robot_nav2/share/robot_nav2/hook/ament_prefix_path.ps1'
+[0.431s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jsc/ros2_ws/install/robot_nav2/share/robot_nav2/hook/ament_prefix_path.dsv'
+[0.431s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jsc/ros2_ws/install/robot_nav2/share/robot_nav2/hook/ament_prefix_path.sh'
+[0.432s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.432s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.436s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jsc/ros2_ws/src/robot_sensor_distance' with build type 'ament_python'
+[0.437s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_sensor_distance', 'ament_prefix_path')
+[0.437s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jsc/ros2_ws/install/robot_sensor_distance/share/robot_sensor_distance/hook/ament_prefix_path.ps1'
+[0.437s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jsc/ros2_ws/install/robot_sensor_distance/share/robot_sensor_distance/hook/ament_prefix_path.dsv'
+[0.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jsc/ros2_ws/install/robot_sensor_distance/share/robot_sensor_distance/hook/ament_prefix_path.sh'
+[0.438s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.438s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.443s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jsc/ros2_ws/src/sllidar_ros2' with build type 'ament_cmake'
+[0.443s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jsc/ros2_ws/src/sllidar_ros2'
+[0.443s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.443s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.731s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jsc/ros2_ws/src/robot_controller'
+[0.731s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.731s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.007s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jsc/ros2_ws/src/robot_distancia'
+[1.008s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.008s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.280s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jsc/ros2_ws/src/robot_nav2'
+[1.280s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.280s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.562s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jsc/ros2_ws/src/robot_sensor_distance'
+[1.562s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.562s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.570s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jsc/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/prueba:/home/jsc/ros2_ws/install/aros2duino:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake /home/jsc/ros2_ws/src/sllidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/jsc/ros2_ws/install/sllidar_ros2
+[2.091s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jsc/ros2_ws/src/robot_nav2': PYTHONPATH=/home/jsc/ros2_ws/build/robot_nav2/prefix_override:/home/jsc/ros2_ws/install/robot_nav2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_nav2 build --build-base /home/jsc/ros2_ws/build/robot_nav2/build install --record /home/jsc/ros2_ws/build/robot_nav2/install.log --single-version-externally-managed install_data
+[2.096s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jsc/ros2_ws/build/robot_distancia': PYTHONPATH=/home/jsc/ros2_ws/build/robot_distancia/prefix_override:/home/jsc/ros2_ws/install/robot_distancia/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/jsc/ros2_ws/build/robot_distancia/build
+[2.097s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jsc/ros2_ws/build/robot_controller': PYTHONPATH=/home/jsc/ros2_ws/build/robot_controller/prefix_override:/home/jsc/ros2_ws/install/robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/jsc/ros2_ws/build/robot_controller/build
+[2.098s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jsc/ros2_ws/build/robot_sensor_distance': PYTHONPATH=/home/jsc/ros2_ws/build/robot_sensor_distance/prefix_override:/home/jsc/ros2_ws/install/robot_sensor_distance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/jsc/ros2_ws/build/robot_sensor_distance/build
+[2.444s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jsc/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/prueba:/home/jsc/ros2_ws/install/aros2duino:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake /home/jsc/ros2_ws/src/sllidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/jsc/ros2_ws/install/sllidar_ros2
+[2.447s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jsc/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/prueba:/home/jsc/ros2_ws/install/aros2duino:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --build /home/jsc/ros2_ws/build/sllidar_ros2 -- -j12 -l12
+[2.449s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jsc/ros2_ws/src/robot_nav2' returned '0': PYTHONPATH=/home/jsc/ros2_ws/build/robot_nav2/prefix_override:/home/jsc/ros2_ws/install/robot_nav2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_nav2 build --build-base /home/jsc/ros2_ws/build/robot_nav2/build install --record /home/jsc/ros2_ws/build/robot_nav2/install.log --single-version-externally-managed install_data
+[2.454s] Level 1:colcon.colcon_core.environment:checking '/home/jsc/ros2_ws/install/robot_nav2' for CMake module files
+[2.454s] Level 1:colcon.colcon_core.environment:checking '/home/jsc/ros2_ws/install/robot_nav2' for CMake config files
+[2.455s] Level 1:colcon.colcon_core.environment:checking '/home/jsc/ros2_ws/install/robot_nav2/lib'
+[2.455s] Level 1:colcon.colcon_core.environment:checking '/home/jsc/ros2_ws/install/robot_nav2/bin'
+[2.455s] Level 1:colcon.colcon_core.environment:checking '/home/jsc/ros2_ws/install/robot_nav2/lib/pkgconfig/robot_nav2.pc'
+[2.455s] Level 1:colcon.colcon_core.environment:checking '/home/jsc/ros2_ws/install/robot_nav2/lib/python3.10/site-packages'
+[2.455s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_nav2', 'pythonpath')
+[2.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jsc/ros2_ws/install/robot_nav2/share/robot_nav2/hook/pythonpath.ps1'
+[2.456s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jsc/ros2_ws/install/robot_nav2/share/robot_nav2/hook/pythonpath.dsv'
+[2.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jsc/ros2_ws/install/robot_nav2/share/robot_nav2/hook/pythonpath.sh'
+[2.457s] Level 1:colcon.colcon_core.environment:checking '/home/jsc/ros2_ws/install/robot_nav2/bin'
+[2.457s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_nav2)
+[2.457s] INFO:colcon.colcon_core.shell:Creating package script '/home/jsc/ros2_ws/install/robot_nav2/share/robot_nav2/package.ps1'
+[2.458s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jsc/ros2_ws/install/robot_nav2/share/robot_nav2/package.dsv'
+[2.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/jsc/ros2_ws/install/robot_nav2/share/robot_nav2/package.sh'
+[2.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/jsc/ros2_ws/install/robot_nav2/share/robot_nav2/package.bash'
+[2.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/jsc/ros2_ws/install/robot_nav2/share/robot_nav2/package.zsh'
+[2.461s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jsc/ros2_ws/install/robot_nav2/share/colcon-core/packages/robot_nav2)
+[2.704s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jsc/ros2_ws/build/robot_controller' returned '0': PYTHONPATH=/home/jsc/ros2_ws/build/robot_controller/prefix_override:/home/jsc/ros2_ws/install/robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/jsc/ros2_ws/build/robot_controller/build
+[2.706s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jsc/ros2_ws/src/robot_controller': PYTHONPATH=/home/jsc/ros2_ws/build/robot_controller/prefix_override:/home/jsc/ros2_ws/install/robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_controller build --build-base /home/jsc/ros2_ws/build/robot_controller/build install --record /home/jsc/ros2_ws/build/robot_controller/install.log --single-version-externally-managed install_data --force
+[2.755s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jsc/ros2_ws/build/robot_sensor_distance' returned '0': PYTHONPATH=/home/jsc/ros2_ws/build/robot_sensor_distance/prefix_override:/home/jsc/ros2_ws/install/robot_sensor_distance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/jsc/ros2_ws/build/robot_sensor_distance/build
+[2.758s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jsc/ros2_ws/src/robot_sensor_distance': PYTHONPATH=/home/jsc/ros2_ws/build/robot_sensor_distance/prefix_override:/home/jsc/ros2_ws/install/robot_sensor_distance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_sensor_distance build --build-base /home/jsc/ros2_ws/build/robot_sensor_distance/build install --record /home/jsc/ros2_ws/build/robot_sensor_distance/install.log --single-version-externally-managed install_data --force
+[2.762s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jsc/ros2_ws/build/robot_distancia' returned '0': PYTHONPATH=/home/jsc/ros2_ws/build/robot_distancia/prefix_override:/home/jsc/ros2_ws/install/robot_distancia/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/jsc/ros2_ws/build/robot_distancia/build
+[2.782s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jsc/ros2_ws/src/robot_distancia': PYTHONPATH=/home/jsc/ros2_ws/build/robot_distancia/prefix_override:/home/jsc/ros2_ws/install/robot_distancia/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_distancia build --build-base /home/jsc/ros2_ws/build/robot_distancia/build install --record /home/jsc/ros2_ws/build/robot_distancia/install.log --single-version-externally-managed install_data --force
+[3.404s] Level 1:colcon.colcon_core.environment:checking '/home/jsc/ros2_ws/install/robot_distancia' for CMake module files
+[3.405s] Level 1:colcon.colcon_core.environment:checking '/home/jsc/ros2_ws/install/robot_distancia' for CMake config files
+[3.406s] Level 1:colcon.colcon_core.environment:checking '/home/jsc/ros2_ws/install/robot_distancia/lib'
+[3.407s] Level 1:colcon.colcon_core.environment:checking '/home/jsc/ros2_ws/install/robot_distancia/bin'
+[3.407s] Level 1:colcon.colcon_core.environment:checking '/home/jsc/ros2_ws/install/robot_distancia/lib/pkgconfig/robot_distancia.pc'
+[3.407s] Level 1:colcon.colcon_core.environment:checking '/home/jsc/ros2_ws/install/robot_distancia/lib/python3.10/site-packages'
+[3.407s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_distancia', 'pythonpath')
+[3.408s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jsc/ros2_ws/install/robot_distancia/share/robot_distancia/hook/pythonpath.ps1'
+[3.405s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jsc/ros2_ws/src/robot_distancia' returned '0': PYTHONPATH=/home/jsc/ros2_ws/build/robot_distancia/prefix_override:/home/jsc/ros2_ws/install/robot_distancia/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_distancia build --build-base /home/jsc/ros2_ws/build/robot_distancia/build install --record /home/jsc/ros2_ws/build/robot_distancia/install.log --single-version-externally-managed install_data --force
+[3.409s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jsc/ros2_ws/install/robot_distancia/share/robot_distancia/hook/pythonpath.dsv'
+[3.412s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jsc/ros2_ws/install/robot_distancia/share/robot_distancia/hook/pythonpath.sh'
+[3.413s] Level 1:colcon.colcon_core.environment:checking '/home/jsc/ros2_ws/install/robot_distancia/bin'
+[3.413s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_distancia)
+[3.413s] INFO:colcon.colcon_core.shell:Creating package script '/home/jsc/ros2_ws/install/robot_distancia/share/robot_distancia/package.ps1'
+[3.414s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jsc/ros2_ws/install/robot_distancia/share/robot_distancia/package.dsv'
+[3.415s] INFO:colcon.colcon_core.shell:Creating package script '/home/jsc/ros2_ws/install/robot_distancia/share/robot_distancia/package.sh'
+[3.416s] INFO:colcon.colcon_core.shell:Creating package script '/home/jsc/ros2_ws/install/robot_distancia/share/robot_distancia/package.bash'
+[3.417s] INFO:colcon.colcon_core.shell:Creating package script '/home/jsc/ros2_ws/install/robot_distancia/share/robot_distancia/package.zsh'
+[3.417s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jsc/ros2_ws/install/robot_distancia/share/colcon-core/packages/robot_distancia)
+[3.445s] Level 1:colcon.colcon_core.environment:checking '/home/jsc/ros2_ws/install/robot_controller' for CMake module files
+[3.446s] Level 1:colcon.colcon_core.environment:checking '/home/jsc/ros2_ws/install/robot_controller' for CMake config files
+[3.447s] Level 1:colcon.colcon_core.environment:checking '/home/jsc/ros2_ws/install/robot_controller/lib'
+[3.447s] Level 1:colcon.colcon_core.environment:checking '/home/jsc/ros2_ws/install/robot_controller/bin'
+[3.447s] Level 1:colcon.colcon_core.environment:checking '/home/jsc/ros2_ws/install/robot_controller/lib/pkgconfig/robot_controller.pc'
+[3.447s] Level 1:colcon.colcon_core.environment:checking '/home/jsc/ros2_ws/install/robot_controller/lib/python3.10/site-packages'
+[3.447s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_controller', 'pythonpath')
+[3.448s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jsc/ros2_ws/install/robot_controller/share/robot_controller/hook/pythonpath.ps1'
+[3.449s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jsc/ros2_ws/src/robot_controller' returned '0': PYTHONPATH=/home/jsc/ros2_ws/build/robot_controller/prefix_override:/home/jsc/ros2_ws/install/robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_controller build --build-base /home/jsc/ros2_ws/build/robot_controller/build install --record /home/jsc/ros2_ws/build/robot_controller/install.log --single-version-externally-managed install_data --force
+[3.449s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jsc/ros2_ws/install/robot_controller/share/robot_controller/hook/pythonpath.dsv'
+[3.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jsc/ros2_ws/install/robot_controller/share/robot_controller/hook/pythonpath.sh'
+[3.451s] Level 1:colcon.colcon_core.environment:checking '/home/jsc/ros2_ws/install/robot_controller/bin'
+[3.451s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_controller)
+[3.452s] INFO:colcon.colcon_core.shell:Creating package script '/home/jsc/ros2_ws/install/robot_controller/share/robot_controller/package.ps1'
+[3.453s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jsc/ros2_ws/install/robot_controller/share/robot_controller/package.dsv'
+[3.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/jsc/ros2_ws/install/robot_controller/share/robot_controller/package.sh'
+[3.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/jsc/ros2_ws/install/robot_controller/share/robot_controller/package.bash'
+[3.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/jsc/ros2_ws/install/robot_controller/share/robot_controller/package.zsh'
+[3.456s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jsc/ros2_ws/install/robot_controller/share/colcon-core/packages/robot_controller)
+[3.464s] Level 1:colcon.colcon_core.environment:checking '/home/jsc/ros2_ws/install/robot_sensor_distance' for CMake module files
+[3.465s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jsc/ros2_ws/src/robot_sensor_distance' returned '0': PYTHONPATH=/home/jsc/ros2_ws/build/robot_sensor_distance/prefix_override:/home/jsc/ros2_ws/install/robot_sensor_distance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_sensor_distance build --build-base /home/jsc/ros2_ws/build/robot_sensor_distance/build install --record /home/jsc/ros2_ws/build/robot_sensor_distance/install.log --single-version-externally-managed install_data --force
+[3.466s] Level 1:colcon.colcon_core.environment:checking '/home/jsc/ros2_ws/install/robot_sensor_distance' for CMake config files
+[3.467s] Level 1:colcon.colcon_core.environment:checking '/home/jsc/ros2_ws/install/robot_sensor_distance/lib'
+[3.467s] Level 1:colcon.colcon_core.environment:checking '/home/jsc/ros2_ws/install/robot_sensor_distance/bin'
+[3.468s] Level 1:colcon.colcon_core.environment:checking '/home/jsc/ros2_ws/install/robot_sensor_distance/lib/pkgconfig/robot_sensor_distance.pc'
+[3.468s] Level 1:colcon.colcon_core.environment:checking '/home/jsc/ros2_ws/install/robot_sensor_distance/lib/python3.10/site-packages'
+[3.468s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_sensor_distance', 'pythonpath')
+[3.469s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jsc/ros2_ws/install/robot_sensor_distance/share/robot_sensor_distance/hook/pythonpath.ps1'
+[3.470s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jsc/ros2_ws/install/robot_sensor_distance/share/robot_sensor_distance/hook/pythonpath.dsv'
+[3.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jsc/ros2_ws/install/robot_sensor_distance/share/robot_sensor_distance/hook/pythonpath.sh'
+[3.471s] Level 1:colcon.colcon_core.environment:checking '/home/jsc/ros2_ws/install/robot_sensor_distance/bin'
+[3.472s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_sensor_distance)
+[3.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/jsc/ros2_ws/install/robot_sensor_distance/share/robot_sensor_distance/package.ps1'
+[3.473s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jsc/ros2_ws/install/robot_sensor_distance/share/robot_sensor_distance/package.dsv'
+[3.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/jsc/ros2_ws/install/robot_sensor_distance/share/robot_sensor_distance/package.sh'
+[3.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/jsc/ros2_ws/install/robot_sensor_distance/share/robot_sensor_distance/package.bash'
+[3.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/jsc/ros2_ws/install/robot_sensor_distance/share/robot_sensor_distance/package.zsh'
+[3.490s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jsc/ros2_ws/install/robot_sensor_distance/share/colcon-core/packages/robot_sensor_distance)
+[11.887s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jsc/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/prueba:/home/jsc/ros2_ws/install/aros2duino:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --build /home/jsc/ros2_ws/build/sllidar_ros2 -- -j12 -l12
+[11.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jsc/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/prueba:/home/jsc/ros2_ws/install/aros2duino:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --install /home/jsc/ros2_ws/build/sllidar_ros2
+[11.995s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[11.995s] Level 1:colcon.colcon_core.environment:checking '/home/jsc/ros2_ws/install/sllidar_ros2' for CMake module files
+[11.996s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jsc/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/prueba:/home/jsc/ros2_ws/install/aros2duino:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --install /home/jsc/ros2_ws/build/sllidar_ros2
+[11.997s] Level 1:colcon.colcon_core.environment:checking '/home/jsc/ros2_ws/install/sllidar_ros2' for CMake config files
+[11.997s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[11.997s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jsc/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[11.998s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jsc/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[11.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jsc/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[11.999s] Level 1:colcon.colcon_core.environment:checking '/home/jsc/ros2_ws/install/sllidar_ros2/lib'
+[11.999s] Level 1:colcon.colcon_core.environment:checking '/home/jsc/ros2_ws/install/sllidar_ros2/bin'
+[11.999s] Level 1:colcon.colcon_core.environment:checking '/home/jsc/ros2_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[11.999s] Level 1:colcon.colcon_core.environment:checking '/home/jsc/ros2_ws/install/sllidar_ros2/lib/python3.10/site-packages'
+[11.999s] Level 1:colcon.colcon_core.environment:checking '/home/jsc/ros2_ws/install/sllidar_ros2/bin'
+[12.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/jsc/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[12.000s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jsc/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[12.001s] INFO:colcon.colcon_core.shell:Creating package script '/home/jsc/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[12.001s] INFO:colcon.colcon_core.shell:Creating package script '/home/jsc/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[12.001s] INFO:colcon.colcon_core.shell:Creating package script '/home/jsc/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[12.001s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jsc/ros2_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[12.083s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[12.084s] Level 1:colcon.colcon_core.environment:checking '/home/jsc/ros2_ws/install/sllidar_ros2' for CMake module files
+[12.084s] Level 1:colcon.colcon_core.environment:checking '/home/jsc/ros2_ws/install/sllidar_ros2' for CMake config files
+[12.084s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[12.085s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jsc/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[12.085s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jsc/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[12.086s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jsc/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[12.086s] Level 1:colcon.colcon_core.environment:checking '/home/jsc/ros2_ws/install/sllidar_ros2/lib'
+[12.086s] Level 1:colcon.colcon_core.environment:checking '/home/jsc/ros2_ws/install/sllidar_ros2/bin'
+[12.086s] Level 1:colcon.colcon_core.environment:checking '/home/jsc/ros2_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[12.087s] Level 1:colcon.colcon_core.environment:checking '/home/jsc/ros2_ws/install/sllidar_ros2/lib/python3.10/site-packages'
+[12.087s] Level 1:colcon.colcon_core.environment:checking '/home/jsc/ros2_ws/install/sllidar_ros2/bin'
+[12.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/jsc/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[12.087s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jsc/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[12.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/jsc/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[12.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/jsc/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[12.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/jsc/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[12.089s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jsc/ros2_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[12.089s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.090s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.090s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.090s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.100s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.100s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.100s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.129s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.129s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jsc/ros2_ws/install/local_setup.ps1'
+[12.131s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jsc/ros2_ws/install/_local_setup_util_ps1.py'
+[12.133s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jsc/ros2_ws/install/setup.ps1'
+[12.136s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jsc/ros2_ws/install/local_setup.sh'
+[12.137s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jsc/ros2_ws/install/_local_setup_util_sh.py'
+[12.138s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jsc/ros2_ws/install/setup.sh'
+[12.140s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jsc/ros2_ws/install/local_setup.bash'
+[12.141s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jsc/ros2_ws/install/setup.bash'
+[12.143s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jsc/ros2_ws/install/local_setup.zsh'
+[12.144s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jsc/ros2_ws/install/setup.zsh'

@@ -1,0 +1,34 @@
+[1.651s] Invoking command in '/home/jsc/ros2_ws/build/robot_sensor_distance': PYTHONPATH=/home/jsc/ros2_ws/build/robot_sensor_distance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jsc/ros2_ws/install/robot_sensor_distance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/jsc/ros2_ws/build/robot_sensor_distance/build
+[1.992s] running develop
+[1.993s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.993s]   warnings.warn(
+[2.179s] Removing /home/jsc/ros2_ws/install/robot_sensor_distance/lib/python3.10/site-packages/robot-sensor-distance.egg-link (link to .)
+[2.215s] Invoked command in '/home/jsc/ros2_ws/build/robot_sensor_distance' returned '0': PYTHONPATH=/home/jsc/ros2_ws/build/robot_sensor_distance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jsc/ros2_ws/install/robot_sensor_distance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/jsc/ros2_ws/build/robot_sensor_distance/build
+[2.217s] Invoking command in '/home/jsc/ros2_ws/src/robot_sensor_distance': PYTHONPATH=/home/jsc/ros2_ws/build/robot_sensor_distance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jsc/ros2_ws/install/robot_sensor_distance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_sensor_distance build --build-base /home/jsc/ros2_ws/build/robot_sensor_distance/build install --record /home/jsc/ros2_ws/build/robot_sensor_distance/install.log --single-version-externally-managed install_data --force
+[2.465s] running egg_info
+[2.466s] writing ../../build/robot_sensor_distance/robot_sensor_distance.egg-info/PKG-INFO
+[2.466s] writing dependency_links to ../../build/robot_sensor_distance/robot_sensor_distance.egg-info/dependency_links.txt
+[2.466s] writing entry points to ../../build/robot_sensor_distance/robot_sensor_distance.egg-info/entry_points.txt
+[2.466s] writing requirements to ../../build/robot_sensor_distance/robot_sensor_distance.egg-info/requires.txt
+[2.466s] writing top-level names to ../../build/robot_sensor_distance/robot_sensor_distance.egg-info/top_level.txt
+[2.468s] reading manifest file '../../build/robot_sensor_distance/robot_sensor_distance.egg-info/SOURCES.txt'
+[2.468s] adding license file 'LICENSE'
+[2.469s] writing manifest file '../../build/robot_sensor_distance/robot_sensor_distance.egg-info/SOURCES.txt'
+[2.469s] running build
+[2.469s] running build_py
+[2.469s] running install
+[2.469s] running install_lib
+[2.470s] creating /home/jsc/ros2_ws/install/robot_sensor_distance/lib/python3.10/site-packages/robot_sensor_distance
+[2.470s] copying /home/jsc/ros2_ws/build/robot_sensor_distance/build/lib/robot_sensor_distance/sensor_distance.py -> /home/jsc/ros2_ws/install/robot_sensor_distance/lib/python3.10/site-packages/robot_sensor_distance
+[2.470s] copying /home/jsc/ros2_ws/build/robot_sensor_distance/build/lib/robot_sensor_distance/__init__.py -> /home/jsc/ros2_ws/install/robot_sensor_distance/lib/python3.10/site-packages/robot_sensor_distance
+[2.471s] byte-compiling /home/jsc/ros2_ws/install/robot_sensor_distance/lib/python3.10/site-packages/robot_sensor_distance/sensor_distance.py to sensor_distance.cpython-310.pyc
+[2.471s] byte-compiling /home/jsc/ros2_ws/install/robot_sensor_distance/lib/python3.10/site-packages/robot_sensor_distance/__init__.py to __init__.cpython-310.pyc
+[2.472s] running install_data
+[2.472s] copying resource/robot_sensor_distance -> /home/jsc/ros2_ws/install/robot_sensor_distance/share/ament_index/resource_index/packages
+[2.472s] copying package.xml -> /home/jsc/ros2_ws/install/robot_sensor_distance/share/robot_sensor_distance
+[2.472s] running install_egg_info
+[2.474s] Copying ../../build/robot_sensor_distance/robot_sensor_distance.egg-info to /home/jsc/ros2_ws/install/robot_sensor_distance/lib/python3.10/site-packages/robot_sensor_distance-0.0.0-py3.10.egg-info
+[2.475s] running install_scripts
+[2.496s] Installing distancia script to /home/jsc/ros2_ws/install/robot_sensor_distance/lib/robot_sensor_distance
+[2.496s] writing list of installed files to '/home/jsc/ros2_ws/build/robot_sensor_distance/install.log'
+[2.528s] Invoked command in '/home/jsc/ros2_ws/src/robot_sensor_distance' returned '0': PYTHONPATH=/home/jsc/ros2_ws/build/robot_sensor_distance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jsc/ros2_ws/install/robot_sensor_distance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_sensor_distance build --build-base /home/jsc/ros2_ws/build/robot_sensor_distance/build install --record /home/jsc/ros2_ws/build/robot_sensor_distance/install.log --single-version-externally-managed install_data --force

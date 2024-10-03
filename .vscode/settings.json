@@ -1,0 +1,23 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/jsc/ros2_ws/install/robot_controller/lib/python3.10/site-packages",
+        "/home/jsc/ros2_ws/install/aros2duino/lib/python3.10/site-packages",
+        "/home/jsc/Aros2duino/build/aros2duino",
+        "/home/jsc/Aros2duino/install/aros2duino/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/jsc/ros2_ws/install/robot_controller/lib/python3.10/site-packages",
+        "/home/jsc/ros2_ws/install/aros2duino/lib/python3.10/site-packages",
+        "/home/jsc/Aros2duino/build/aros2duino",
+        "/home/jsc/Aros2duino/install/aros2duino/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "C_Cpp.errorSquiggles": "disabled",
+    "files.associations": {
+        "chrono": "cpp"
+    },
+    "cmake.sourceDirectory": "/home/jsc/ros2_ws/src/sllidar_ros2"
+}

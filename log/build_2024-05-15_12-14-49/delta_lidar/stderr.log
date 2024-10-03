@@ -1,0 +1,58 @@
+[01m[K/home/jsc/ros2_ws/src/delta_lidar/src/node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/jsc/ros2_ws/src/delta_lidar/src/node.cpp:90:33:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::get_parameter_or(const char [12], std::string&, const char [13])[m[K’
+   90 |     [01;31m[Knh_private->get_parameter_or("serial_port", opt_com_path, "/dev/ttyUSB0")[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jsc/ros2_ws/src/delta_lidar/src/node.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:702:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> bool rclcpp::Node::get_parameter_or(const string&, ParameterT&, const ParameterT&) const[m[K’
+  702 |   [01;36m[Kget_parameter_or[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:702:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jsc/ros2_ws/src/delta_lidar/src/node.cpp:90:33:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst ParameterT[m[K’ (‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ and ‘[01m[Kchar [13][m[K’)
+   90 |     [01;36m[Knh_private->get_parameter_or("serial_port", opt_com_path, "/dev/ttyUSB0")[m[K;
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jsc/ros2_ws/src/delta_lidar/src/node.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:721:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> ParameterT rclcpp::Node::get_parameter_or(const string&, const ParameterT&) const[m[K’
+  721 |   [01;36m[Kget_parameter_or[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:721:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jsc/ros2_ws/src/delta_lidar/src/node.cpp:90:33:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+   90 |     [01;36m[Knh_private->get_parameter_or("serial_port", opt_com_path, "/dev/ttyUSB0")[m[K;
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jsc/ros2_ws/src/delta_lidar/src/node.cpp:91:33:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::get_parameter_or(const char [9], std::string&, const char [6])[m[K’
+   91 |     [01;31m[Knh_private->get_parameter_or("frame_id", frame_id, "laser")[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jsc/ros2_ws/src/delta_lidar/src/node.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:702:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> bool rclcpp::Node::get_parameter_or(const string&, ParameterT&, const ParameterT&) const[m[K’
+  702 |   [01;36m[Kget_parameter_or[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:702:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jsc/ros2_ws/src/delta_lidar/src/node.cpp:91:33:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst ParameterT[m[K’ (‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ and ‘[01m[Kchar [6][m[K’)
+   91 |     [01;36m[Knh_private->get_parameter_or("frame_id", frame_id, "laser")[m[K;
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jsc/ros2_ws/src/delta_lidar/src/node.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:721:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> ParameterT rclcpp::Node::get_parameter_or(const string&, const ParameterT&) const[m[K’
+  721 |   [01;36m[Kget_parameter_or[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:721:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jsc/ros2_ws/src/delta_lidar/src/node.cpp:91:33:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+   91 |     [01;36m[Knh_private->get_parameter_or("frame_id", frame_id, "laser")[m[K;
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jsc/ros2_ws/src/delta_lidar/src/node.cpp:113:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass everest::hwdrivers::C3iroboticsLidar[m[K’ has no member named ‘[01m[Kinitialize[m[K’; did you mean ‘[01m[Kinitilize[m[K’?
+  113 |     robotics_lidar.[01;31m[Kinitialize[m[K(&serial_connect);
+      |                    [01;31m[K^~~~~~~~~~[m[K
+      |                    [32m[Kinitilize[m[K
+gmake[2]: *** [CMakeFiles/delta_lidar_node.dir/build.make:76: CMakeFiles/delta_lidar_node.dir/src/node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/delta_lidar_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

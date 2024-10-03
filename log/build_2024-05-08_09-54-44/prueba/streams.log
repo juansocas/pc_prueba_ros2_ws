@@ -1,0 +1,25 @@
+[0.839s] Invoking command in '/home/jsc/ros2_ws/build/prueba': PYTHONPATH=/home/jsc/ros2_ws/build/prueba/prefix_override:/home/jsc/ros2_ws/install/prueba/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jsc/ros2_ws/build/prueba/build --no-deps symlink_data
+[1.088s] running develop
+[1.088s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.088s]   warnings.warn(
+[1.239s] running egg_info
+[1.239s] creating prueba.egg-info
+[1.239s] writing prueba.egg-info/PKG-INFO
+[1.240s] writing dependency_links to prueba.egg-info/dependency_links.txt
+[1.240s] writing entry points to prueba.egg-info/entry_points.txt
+[1.240s] writing requirements to prueba.egg-info/requires.txt
+[1.240s] writing top-level names to prueba.egg-info/top_level.txt
+[1.240s] writing manifest file 'prueba.egg-info/SOURCES.txt'
+[1.242s] reading manifest file 'prueba.egg-info/SOURCES.txt'
+[1.242s] writing manifest file 'prueba.egg-info/SOURCES.txt'
+[1.243s] running build_ext
+[1.244s] Creating /home/jsc/ros2_ws/install/prueba/lib/python3.10/site-packages/prueba.egg-link (link to .)
+[1.244s] 
+[1.244s] Installed /home/jsc/ros2_ws/build/prueba
+[1.245s] running symlink_data
+[1.245s] creating /home/jsc/ros2_ws/install/prueba/share/ament_index
+[1.245s] creating /home/jsc/ros2_ws/install/prueba/share/ament_index/resource_index
+[1.245s] creating /home/jsc/ros2_ws/install/prueba/share/ament_index/resource_index/packages
+[1.245s] symbolically linking /home/jsc/ros2_ws/build/prueba/resource/prueba -> /home/jsc/ros2_ws/install/prueba/share/ament_index/resource_index/packages
+[1.245s] symbolically linking /home/jsc/ros2_ws/build/prueba/package.xml -> /home/jsc/ros2_ws/install/prueba/share/prueba
+[1.276s] Invoked command in '/home/jsc/ros2_ws/build/prueba' returned '0': PYTHONPATH=/home/jsc/ros2_ws/build/prueba/prefix_override:/home/jsc/ros2_ws/install/prueba/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jsc/ros2_ws/build/prueba/build --no-deps symlink_data

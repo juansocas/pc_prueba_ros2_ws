@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating aros2duino.egg-info
+writing aros2duino.egg-info/PKG-INFO
+writing dependency_links to aros2duino.egg-info/dependency_links.txt
+writing entry points to aros2duino.egg-info/entry_points.txt
+writing requirements to aros2duino.egg-info/requires.txt
+writing top-level names to aros2duino.egg-info/top_level.txt
+writing manifest file 'aros2duino.egg-info/SOURCES.txt'
+reading manifest file 'aros2duino.egg-info/SOURCES.txt'
+writing manifest file 'aros2duino.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jsc/ros2_ws/install/aros2duino/lib/python3.10/site-packages/aros2duino.egg-link (link to .)
+Installing find_ports script to /home/jsc/ros2_ws/install/aros2duino/lib/aros2duino
+Installing serial_comm script to /home/jsc/ros2_ws/install/aros2duino/lib/aros2duino
+Installing test_writing script to /home/jsc/ros2_ws/install/aros2duino/lib/aros2duino
+
+Installed /home/jsc/ros2_ws/build/aros2duino
+running symlink_data
+creating /home/jsc/ros2_ws/install/aros2duino/share/ament_index
+creating /home/jsc/ros2_ws/install/aros2duino/share/ament_index/resource_index
+creating /home/jsc/ros2_ws/install/aros2duino/share/ament_index/resource_index/packages
+symbolically linking /home/jsc/ros2_ws/build/aros2duino/resource/aros2duino -> /home/jsc/ros2_ws/install/aros2duino/share/ament_index/resource_index/packages
+symbolically linking /home/jsc/ros2_ws/build/aros2duino/package.xml -> /home/jsc/ros2_ws/install/aros2duino/share/aros2duino

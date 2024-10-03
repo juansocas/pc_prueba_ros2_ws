@@ -1,0 +1,44 @@
+[1.024s] Invoking command in '/home/jsc/ros2_ws/build/robot_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/prueba:/home/jsc/ros2_ws/install/aros2duino:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake /home/jsc/ros2_ws/src/robot_slam -DCMAKE_INSTALL_PREFIX=/home/jsc/ros2_ws/install/robot_slam
+[1.082s] -- The C compiler identification is GNU 11.4.0
+[1.153s] -- The CXX compiler identification is GNU 11.4.0
+[1.160s] -- Detecting C compiler ABI info
+[1.231s] -- Detecting C compiler ABI info - done
+[1.238s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.238s] -- Detecting C compile features
+[1.239s] -- Detecting C compile features - done
+[1.242s] -- Detecting CXX compiler ABI info
+[1.325s] -- Detecting CXX compiler ABI info - done
+[1.332s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.332s] -- Detecting CXX compile features
+[1.333s] -- Detecting CXX compile features - done
+[1.337s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.511s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.640s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.740s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.741s] -- Added test 'lint_cmake' to check CMake code style
+[1.742s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.744s] -- Added test 'xmllint' to check XML markup files
+[1.747s] -- Configuring done
+[1.751s] -- Generating done
+[1.752s] -- Build files have been written to: /home/jsc/ros2_ws/build/robot_slam
+[1.759s] Invoked command in '/home/jsc/ros2_ws/build/robot_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/prueba:/home/jsc/ros2_ws/install/aros2duino:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake /home/jsc/ros2_ws/src/robot_slam -DCMAKE_INSTALL_PREFIX=/home/jsc/ros2_ws/install/robot_slam
+[1.761s] Invoking command in '/home/jsc/ros2_ws/build/robot_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/prueba:/home/jsc/ros2_ws/install/aros2duino:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --build /home/jsc/ros2_ws/build/robot_slam -- -j12 -l12
+[1.812s] Invoked command in '/home/jsc/ros2_ws/build/robot_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/prueba:/home/jsc/ros2_ws/install/aros2duino:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --build /home/jsc/ros2_ws/build/robot_slam -- -j12 -l12
+[1.848s] Invoking command in '/home/jsc/ros2_ws/build/robot_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/prueba:/home/jsc/ros2_ws/install/aros2duino:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --install /home/jsc/ros2_ws/build/robot_slam
+[1.854s] -- Install configuration: ""
+[1.855s] -- Installing: /home/jsc/ros2_ws/install/robot_slam/share/ament_index/resource_index/package_run_dependencies/robot_slam
+[1.855s] -- Installing: /home/jsc/ros2_ws/install/robot_slam/share/ament_index/resource_index/parent_prefix_path/robot_slam
+[1.855s] -- Installing: /home/jsc/ros2_ws/install/robot_slam/share/robot_slam/environment/ament_prefix_path.sh
+[1.855s] -- Installing: /home/jsc/ros2_ws/install/robot_slam/share/robot_slam/environment/ament_prefix_path.dsv
+[1.855s] -- Installing: /home/jsc/ros2_ws/install/robot_slam/share/robot_slam/environment/path.sh
+[1.855s] -- Installing: /home/jsc/ros2_ws/install/robot_slam/share/robot_slam/environment/path.dsv
+[1.855s] -- Installing: /home/jsc/ros2_ws/install/robot_slam/share/robot_slam/local_setup.bash
+[1.856s] -- Installing: /home/jsc/ros2_ws/install/robot_slam/share/robot_slam/local_setup.sh
+[1.856s] -- Installing: /home/jsc/ros2_ws/install/robot_slam/share/robot_slam/local_setup.zsh
+[1.856s] -- Installing: /home/jsc/ros2_ws/install/robot_slam/share/robot_slam/local_setup.dsv
+[1.856s] -- Installing: /home/jsc/ros2_ws/install/robot_slam/share/robot_slam/package.dsv
+[1.857s] -- Installing: /home/jsc/ros2_ws/install/robot_slam/share/ament_index/resource_index/packages/robot_slam
+[1.857s] -- Installing: /home/jsc/ros2_ws/install/robot_slam/share/robot_slam/cmake/robot_slamConfig.cmake
+[1.857s] -- Installing: /home/jsc/ros2_ws/install/robot_slam/share/robot_slam/cmake/robot_slamConfig-version.cmake
+[1.857s] -- Installing: /home/jsc/ros2_ws/install/robot_slam/share/robot_slam/package.xml
+[1.860s] Invoked command in '/home/jsc/ros2_ws/build/robot_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/prueba:/home/jsc/ros2_ws/install/aros2duino:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --install /home/jsc/ros2_ws/build/robot_slam

@@ -1,0 +1,18 @@
+[31mCMake Error at CMakeLists.txt:34 (find_package):
+  By not providing "Findteleop_twist_keyboard.cmake" in CMAKE_MODULE_PATH
+  this project has asked CMake to find a package configuration file provided
+  by "teleop_twist_keyboard", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "teleop_twist_keyboard" with any of the following names:
+
+    teleop_twist_keyboardConfig.cmake
+    teleop_twist_keyboard-config.cmake
+
+  Add the installation prefix of "teleop_twist_keyboard" to CMAKE_PREFIX_PATH
+  or set "teleop_twist_keyboard_DIR" to a directory containing one of the
+  above files.  If "teleop_twist_keyboard" provides a separate development
+  package or SDK, be sure it has been installed.
+
+[0m
+gmake: *** [Makefile:226: cmake_check_build_system] Error 1

@@ -1,0 +1,13 @@
+[0.036s] Invoking command in '/home/jsc/ros2_ws/build/delta_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/prueba:/home/jsc/ros2_ws/install/aros2duino:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --build /home/jsc/ros2_ws/build/delta_lidar -- -j12 -l12
+[0.879s] [35m[1mConsolidate compiler generated dependencies of target delta_lidar_node[0m
+[0.879s] [ 14%] Built target delta_lidar_node_client
+[0.880s] [ 21%] [32mBuilding CXX object CMakeFiles/delta_lidar_node.dir/src/node.cpp.o[0m
+[2.398s] [01m[K/home/jsc/ros2_ws/src/delta_lidar/src/node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.398s] [01m[K/home/jsc/ros2_ws/src/delta_lidar/src/node.cpp:119:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass everest::hwdrivers::C3iroboticsLidar[m[K’ has no member named ‘[01m[Kinitialize[m[K’; did you mean ‘[01m[Kinitilize[m[K’?
+[2.398s]   119 |     robotics_lidar.[01;31m[Kinitialize[m[K(serial_connect);
+[2.398s]       |                    [01;31m[K^~~~~~~~~~[m[K
+[2.398s]       |                    [32m[Kinitilize[m[K
+[3.120s] gmake[2]: *** [CMakeFiles/delta_lidar_node.dir/build.make:76: CMakeFiles/delta_lidar_node.dir/src/node.cpp.o] Error 1
+[3.120s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/delta_lidar_node.dir/all] Error 2
+[3.120s] gmake: *** [Makefile:146: all] Error 2
+[3.122s] Invoked command in '/home/jsc/ros2_ws/build/delta_lidar' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/prueba:/home/jsc/ros2_ws/install/aros2duino:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --build /home/jsc/ros2_ws/build/delta_lidar -- -j12 -l12

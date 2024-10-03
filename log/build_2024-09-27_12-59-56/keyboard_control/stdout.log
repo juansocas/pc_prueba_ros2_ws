@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating keyboard_control.egg-info
+writing keyboard_control.egg-info/PKG-INFO
+writing dependency_links to keyboard_control.egg-info/dependency_links.txt
+writing entry points to keyboard_control.egg-info/entry_points.txt
+writing requirements to keyboard_control.egg-info/requires.txt
+writing top-level names to keyboard_control.egg-info/top_level.txt
+writing manifest file 'keyboard_control.egg-info/SOURCES.txt'
+reading manifest file 'keyboard_control.egg-info/SOURCES.txt'
+writing manifest file 'keyboard_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jsc/ros2_ws/install/keyboard_control/lib/python3.10/site-packages/keyboard-control.egg-link (link to .)
+Installing keyboard_control_node script to /home/jsc/ros2_ws/install/keyboard_control/lib/keyboard_control
+
+Installed /home/jsc/ros2_ws/build/keyboard_control
+running symlink_data
+creating /home/jsc/ros2_ws/install/keyboard_control/share/ament_index
+creating /home/jsc/ros2_ws/install/keyboard_control/share/ament_index/resource_index
+creating /home/jsc/ros2_ws/install/keyboard_control/share/ament_index/resource_index/packages
+symbolically linking /home/jsc/ros2_ws/build/keyboard_control/resource/keyboard_control -> /home/jsc/ros2_ws/install/keyboard_control/share/ament_index/resource_index/packages
+symbolically linking /home/jsc/ros2_ws/build/keyboard_control/package.xml -> /home/jsc/ros2_ws/install/keyboard_control/share/keyboard_control

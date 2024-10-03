@@ -1,0 +1,2 @@
+Invoking command in '/home/jsc/ros2_ws/build/rqt_robot_steering': /usr/bin/cmake /home/jsc/ros2_ws/src/rqt_robot_steering -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/jsc/ros2_ws/install/rqt_robot_steering
+Invoked command in '/home/jsc/ros2_ws/build/rqt_robot_steering' returned '1': /usr/bin/cmake /home/jsc/ros2_ws/src/rqt_robot_steering -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/jsc/ros2_ws/install/rqt_robot_steering

@@ -1,0 +1,32 @@
+[0.010s] Invoking command in '/home/jsc/ros2_ws/build/jsc_mobile_robot': /usr/bin/cmake /home/jsc/ros2_ws/src/jsc_mobile_robot -DCMAKE_INSTALL_PREFIX=/home/jsc/ros2_ws/install/jsc_mobile_robot
+[0.024s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.148s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.163s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.215s] Error parsing '/home/jsc/ros2_ws/src/jsc_mobile_robot/package.xml':
+[0.258s] Traceback (most recent call last):
+[0.258s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.258s]     main()
+[0.258s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.258s]     raise e
+[0.258s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.258s]     package = parse_package_string(
+[0.258s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string
+[0.258s]     raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+[0.258s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/jsc/ros2_ws/src/jsc_mobile_robot/package.xml':
+[0.258s] Error(s):
+[0.258s] - The generic dependency on 'robot_localization' is redundant with: exec_depend
+[0.270s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.270s]   execute_process(/usr/bin/python3
+[0.270s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.270s]   /home/jsc/ros2_ws/src/jsc_mobile_robot/package.xml
+[0.270s]   /home/jsc/ros2_ws/build/jsc_mobile_robot/ament_cmake_core/package.cmake)
+[0.270s]   returned error code 1
+[0.270s] Call Stack (most recent call first):
+[0.271s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.271s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.271s]   CMakeLists.txt:37 (ament_lint_auto_find_test_dependencies)
+[0.271s] 
+[0.271s] [0m
+[0.271s] -- Configuring incomplete, errors occurred!
+[0.271s] See also "/home/jsc/ros2_ws/build/jsc_mobile_robot/CMakeFiles/CMakeOutput.log".
+[0.274s] Invoked command in '/home/jsc/ros2_ws/build/jsc_mobile_robot' returned '1': /usr/bin/cmake /home/jsc/ros2_ws/src/jsc_mobile_robot -DCMAKE_INSTALL_PREFIX=/home/jsc/ros2_ws/install/jsc_mobile_robot

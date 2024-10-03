@@ -1,0 +1,19 @@
+[0.728s] Invoking command in '/home/jsc/ros2_ws/build/robot_controller': PYTHONPATH=/home/jsc/ros2_ws/build/robot_controller/prefix_override:/home/jsc/ros2_ws/install/robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jsc/ros2_ws/build/robot_controller/build --no-deps symlink_data
+[0.958s] running develop
+[0.958s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.958s]   warnings.warn(
+[1.094s] running egg_info
+[1.094s] writing robot_controller.egg-info/PKG-INFO
+[1.095s] writing dependency_links to robot_controller.egg-info/dependency_links.txt
+[1.095s] writing entry points to robot_controller.egg-info/entry_points.txt
+[1.095s] writing requirements to robot_controller.egg-info/requires.txt
+[1.095s] writing top-level names to robot_controller.egg-info/top_level.txt
+[1.097s] reading manifest file 'robot_controller.egg-info/SOURCES.txt'
+[1.098s] writing manifest file 'robot_controller.egg-info/SOURCES.txt'
+[1.100s] running build_ext
+[1.100s] Creating /home/jsc/ros2_ws/install/robot_controller/lib/python3.10/site-packages/robot-controller.egg-link (link to .)
+[1.101s] Installing text_node script to /home/jsc/ros2_ws/install/robot_controller/lib/robot_controller
+[1.102s] 
+[1.102s] Installed /home/jsc/ros2_ws/build/robot_controller
+[1.102s] running symlink_data
+[1.127s] Invoked command in '/home/jsc/ros2_ws/build/robot_controller' returned '0': PYTHONPATH=/home/jsc/ros2_ws/build/robot_controller/prefix_override:/home/jsc/ros2_ws/install/robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jsc/ros2_ws/build/robot_controller/build --no-deps symlink_data
