@@ -13,6 +13,8 @@ from launch_ros.substitutions import FindPackageShare
 
 def generate_launch_description():
 
+  #PRUEBAAAAAA
+
   # Set the path to different files and folders.
   pkg_gazebo_ros = FindPackageShare(package='gazebo_ros').find('gazebo_ros')
   pkg_share = FindPackageShare(package='jsc_mobile_robot').find('jsc_mobile_robot')
